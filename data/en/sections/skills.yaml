@@ -6,66 +6,140 @@ section:
   weight: 2
   showOnNavbar: true
   filter: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 # filter buttons
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Robotics
+  filter: "robotics"
+- name: Embedded Systems
+  filter: "embedded"
+- name: Software Development
+  filter: "software"
+- name: Mechanical Design
+  filter: "mechanical"
+- name: Electronics
+  filter: "electronics"
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
+# Your Skills
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: ROS 2 Development
+  # logo: /images/sections/skills/ros2.png
+  logo: /images/sections/skills/c++.png
+  summary: "Development of robotic systems and communication structures using ROS 2 and C++."
+  categories: ["robotics", "software"]
+  url: "https://docs.ros.org/en/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: micro-ROS on Embedded Platforms
+  # logo: /images/sections/skills/microros.png
+  logo: /images/sections/skills/c++.png
+  summary: "Integration of micro-ROS for real-time robotic communication on embedded systems."
+  categories: ["robotics", "embedded"]
+  url: "https://micro.ros.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: 3D Modeling with SolidWorks
+  # logo: /images/sections/skills/solidworks.png
+  logo: /images/sections/skills/c++.png
+  summary: "Design of mechanical components and assemblies using SolidWorks. Completed Certified SolidWorks Professional (CSWP) certification."
+  categories: ["mechanical"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+- name: PCB and Circuit Design
+  # logo: /images/sections/skills/kicad.png
+  logo: /images/sections/skills/c++.png
+  summary: "Design of electronic circuits and printed circuit boards using KiCad for embedded and general electronics projects."
+  categories: ["electronics"]
+  url: "https://kicad.org/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: C++ Programming
+  # logo: /images/sections/skills/cpp.png
+  logo: /images/sections/skills/c++.png
+  summary: "Know  C/C++ programming, mainly focused on robotics and embedded systems."
+  categories: ["software"]
+  url: "https://isocpp.org/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+- name: Linux Systems
+  # logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/c++.png
+  summary: "Development and configuration of software projects in Linux environments."
+  categories: ["software"]
+  url: "https://ubuntu.com/"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
+- name: Git Version Control
+  # logo: /images/sections/skills/git.png
+  logo: /images/sections/skills/c++.png
+  summary: "Git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  categories: ["software"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+# # section information
+# section:
+#   name: Skills
+#   id: skills
+#   enable: true
+#   weight: 2
+#   showOnNavbar: true
+#   filter: true
+#   # Can optionally hide the title in sections
+#   # hideTitle: true
+
+# # filter buttons
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Basic
+#   filter: "basic"
+# - name: Language
+#   filter: "language"
+# - name: Container
+#   filter: "container"
+# - name: Others
+#   filter: "others"
+
+# # Your Skills.
+# # Give a summary of you each skill in the summary section.
+# skills:
+# - name: Kubernetes
+#   logo: /images/sections/skills/kubernetes.png
+#   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+#   categories: ["container"]
+#   url: "https://kubernetes.io/"
+
+# - name: Go Development
+#   logo: /images/sections/skills/go.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   categories: ["basic", "language"]
+#   url: "https://golang.org/"
+
+# - name: Cloud Computing
+#   logo: /images/sections/skills/cloud.png
+#   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+#   categories: ["others"]
+
+# - name: Docker
+#   logo: /images/sections/skills/docker.svg
+#   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+#   categories: ["container"]
+#   url: "https://www.docker.com/"
+
+# - name: Prometheus
+#   logo: /images/sections/skills/prometheus.png
+#   summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+#   categories: ["basic"]
+#   url: "https://prometheus.io/"
+
+# - name: Linux
+#   logo: /images/sections/skills/linux.png
+#   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+#   categories: ["others"]
+
+# - name: Git
+#   logo: /images/sections/skills/git.png
+#   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+#   categories: ["basic"]
+#   url: "https://git-scm.com/"
+
+# - name: C++
+#   logo: /images/sections/skills/c++.png
+#   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+#   categories: ["basic", "language"]
