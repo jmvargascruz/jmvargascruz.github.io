@@ -1,10 +1,10 @@
-# some information about you
+# algo de información sobre ti
 name: "Jesús Vargas"
 nickname: "Jesús"
-# greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+# mensaje de saludo antes de tu nombre. por defecto será "Hi! I am" si no se proporciona
+greeting: "Hola, soy"
 image: "images/author/profile.png"
-# give your some contact information. they will be used in the footer
+# proporciona algo de información de contacto. será usada en el pie de página
 contactInfo:
   email: "jm.vargascruz@gmail.com"
   # phone: "+0123456789"
@@ -12,10 +12,10 @@ contactInfo:
   linkedin: jmvargascruz
   # researchgate: john-doe
 
-# some summary about what you do
+# un resumen sobre lo que haces
 summary:
-  - I am a mechatronics engineer
-  - I work on robotics, embedded systems, and automation
-  - I develop applications using C++ and Python
-  - I like designing mechanical systems and electronic circuits
-  - I build projects combining software, electronics, and mechanics
+  - Soy ingeniero en mecatrónica
+  - Trabajo en robótica, sistemas embebidos y automatización
+  - Desarrollo software en C++ y Python
+  - Me gusta diseñar sistemas mecánicos y circuitos electrónicos
+  - Construyo proyectos que combinan software, electrónica y mecánica

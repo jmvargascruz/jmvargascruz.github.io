@@ -1,0 +1,29 @@
+# Aviso de derechos de autor
+copyright: © 2025 Derechos reservados.
+
+# Un aviso de descargo de responsabilidad para el pie de página. Asegúrate de haber configurado "params.footer.disclaimer.enable: true" en tu archivo `config.yaml`.
+# disclaimer: "Este tema está bajo licencia MIT. Puedes usarlo para fines no comerciales, comerciales o privados.
+# Puedes modificar o distribuir el tema sin requerir ningún permiso del autor del tema.
+# Sin embargo, el autor del tema no proporciona ninguna garantía ni asume ninguna responsabilidad por cualquier problema con el tema."
+
+# Descripción meta para tu sitio. Esto ayudará a los motores de búsqueda a encontrar tu sitio.
+description: Portafolio y blog personal de Jesús Vargas.
+
+# especifica la lista de menús personalizados que deseas mostrar en la barra de navegación superior.
+# se separarán mediante un divisor de los menús principales.
+customMenus:
+- name: Docs
+  url: https://toha-guides.netlify.app/posts/
+  # especifica si se debe ocultar el elemento del menú de la barra de navegación superior.
+  hideFromNavbar: false
+  # especifica si se debe mostrar el elemento del menú en el pie de página o no.
+  # si lo configuras como true, asegúrate de haber establecido `footer.navigation.customMenus: true` en tu archivo config.yaml
+  showOnFooter: false
+
+# Especifica encabezados OpenGraph
+openGraph:
+  title: Blog de Jesús
+  type: website
+  description: Portafolio y blog personal de Jesús Vargas.
+  image: images/author/profile.png
+  url: https://jmvargascruz.github.io

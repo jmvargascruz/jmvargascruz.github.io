@@ -1,53 +1,53 @@
-# section information
+# información de la sección
 section:
-  name: Experiences
+  name: Experiencia
   id: experiences
   enable: true
   weight: 3
   showOnNavbar: true
 
-# Your experiences
+# Tu experiencia laboral
 experiences:
 - company:
     name: Magana S.A de C.V
     url: "#"
-    location: Mexico
+    location: México
     logo: /images/sections/experiences/magana.png
-    overview: Textile company specialized in fabric inspection systems and production solutions.
+    overview: Empresa textil especializada en sistemas de inspección de telas y soluciones de producción.
   positions:
-  - designation: Electrical System Engineer
-    start: Apr 2023
-    end: Aug 2023
+  - designation: Ingeniero de Sistemas Eléctricos
+    start: Abr 2023
+    end: Ago 2023
     responsibilities:
-    - Developed documentation for electrical and sensor circuits of a fabric inspection machine.
-    - Supported replication and manufacturing of new inspection systems.
+    - Desarrollé documentación para circuitos eléctricos y de sensores de una máquina de inspección textil.
+    - Apoyé la replicación y fabricación de nuevos sistemas de inspección.
 
 - company:
-    name: Independent Contractor
+    name: Contratista Independiente
     url: "#"
-    location: Mexico
+    location: México
     logo: /images/sections/experiences/independent.png
-    overview: Freelance engineering services focused on electronics, robotics, and software development.
+    overview: Servicios de ingeniería freelance enfocados en electrónica, robótica y desarrollo de software.
   positions:
-  - designation: Mechatronics Engineer
-    start: Dec 2022
+  - designation: Ingeniero Mecatrónico
+    start: Dic 2022
     end: Jun 2023
     responsibilities:
-    - Designed and developed a data acquisition module for a driving simulator.
-    - Worked on hardware and software integration for licensing evaluation systems.
+    - Diseñé y desarrollé un módulo de adquisición de datos para un simulador de conducción.
+    - Trabajé en la integración de hardware y software para sistemas de evaluación de licencias.
 
 - company:
     name: Tecnológico de Monterrey
     url: "https://tec.mx"
-    location: Mexico
+    location: México
     logo: /images/sections/experiences/tec.png
-    overview: Prestigious private university recognized for its excellence in engineering and technology education.
+    overview: Universidad privada de prestigio reconocida por su excelencia en educación en ingeniería y tecnología.
   positions:
-  - designation: Math Tutor
+  - designation: Tutor de Matemáticas
     start: 2018
     end: 2021
     responsibilities:
-    - Provided tutoring support to undergraduate students in mathematics courses.
+    - Brindé apoyo en tutorías a estudiantes de nivel licenciatura en cursos de matemáticas.
 
 # # section information
 # section:

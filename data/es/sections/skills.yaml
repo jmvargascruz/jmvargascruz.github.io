@@ -1,0 +1,73 @@
+# información de la sección
+section:
+  name: Habilidades
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+
+# botones de filtrado
+buttons:
+- name: Todas
+  filter: "all"
+- name: Robótica
+  filter: "robotics"
+- name: Sistemas Embebidos
+  filter: "embedded"
+- name: Desarrollo de Software
+  filter: "software"
+- name: Diseño Mecánico
+  filter: "mechanical"
+- name: Electrónica
+  filter: "electronics"
+
+# Tus habilidades
+skills:
+- name: Desarrollo con ROS 2
+  # logo: /images/sections/skills/ros2.png
+  logo: /images/sections/skills/c++.png
+  summary: "Desarrollo de sistemas robóticos y estructuras de comunicación usando ROS 2 y C++."
+  categories: ["robotics", "software"]
+  url: "https://docs.ros.org/en/"
+
+- name: micro-ROS en Plataformas Embebidas
+  # logo: /images/sections/skills/microros.png
+  logo: /images/sections/skills/c++.png
+  summary: "Integración de micro-ROS para comunicación robótica en tiempo real sobre sistemas embebidos."
+  categories: ["robotics", "embedded"]
+  url: "https://micro.ros.org/"
+
+- name: Modelado 3D con SolidWorks
+  # logo: /images/sections/skills/solidworks.png
+  logo: /images/sections/skills/c++.png
+  summary: "Diseño de componentes y ensamblajes mecánicos en SolidWorks. Certificación completada como CSWP (Certified SolidWorks Professional)."
+  categories: ["mechanical"]
+
+- name: Diseño de PCBs y Circuitos
+  # logo: /images/sections/skills/kicad.png
+  logo: /images/sections/skills/c++.png
+  summary: "Diseño de circuitos electrónicos y placas de circuito impreso utilizando KiCad para proyectos embebidos y de electrónica general."
+  categories: ["electronics"]
+  url: "https://kicad.org/"
+
+- name: Programación en C++
+  # logo: /images/sections/skills/cpp.png
+  logo: /images/sections/skills/c++.png
+  summary: "Conocimiento en programación C/C++, enfocado principalmente en robótica y sistemas embebidos."
+  categories: ["software"]
+  url: "https://isocpp.org/"
+
+- name: Sistemas Linux
+  # logo: /images/sections/skills/linux.png
+  logo: /images/sections/skills/c++.png
+  summary: "Desarrollo y configuración de proyectos de software en entornos Linux."
+  categories: ["software"]
+  url: "https://ubuntu.com/"
+
+- name: Control de Versiones con Git
+  # logo: /images/sections/skills/git.png
+  logo: /images/sections/skills/c++.png
+  summary: "Desarrollo basado en Git. Principalmente uso de GitHub, con experiencia adicional en GitLab."
+  categories: ["software"]
+  url: "https://git-scm.com/"

@@ -1,0 +1,170 @@
+# información de la sección
+section:
+  name: Proyectos
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+# botones de filtrado
+buttons:
+- name: Todos
+  filter: "all"
+- name: Robótica
+  filter: "robotics"
+- name: Control
+  filter: "control"
+- name: Automatización
+  filter: "automation"
+- name: Electrónica
+  filter: "electronics"
+- name: Diseño CAD
+  filter: "cad"
+- name: DIY
+  filter: "diy"
+- name: Aerodinámica
+  filter: "aerodynamics"
+
+projects:
+- name: Módulo Sensorial | Interfaz USB HID
+  logo: /images/sections/projects/module.jpg
+  role: Desarrollador
+  summary: Módulo sensorial diseñado para comunicación USB HID.
+  tags: ["electronics"]
+  # repo: ""
+  # url: ""
+
+- name: Fuente de Poder DC Variable
+  logo: /images/sections/projects/power_source.jpg
+  role: Desarrollador
+  summary: Fuente de alimentación DC construida con salida de voltaje variable.
+  tags: ["electronics"]
+  # repo: ""
+  # url: ""
+
+- name: UR10 Resolviendo la Torre de Hanoi
+  logo: /images/sections/projects/u10_hanoi.jpg
+  role: Desarrollador
+  summary: Implementación de cinemática inversa para brazo UR10 resolviendo la Torre de Hanoi.
+  tags: ["robotics"]
+  # repo: ""
+  # url: ""
+
+- name: Robot Recolector de Objetos
+  logo: /images/sections/projects/beach_robot.jpg
+  role: Desarrollador
+  summary: Robot diseñado en SolidWorks y programado en LabVIEW para recolección de objetos.
+  tags: ["robotics"]
+  # repo: ""
+  # url: ""
+
+- name: Robociety | Grupo Estudiantil
+  logo: /images/sections/projects/robociety.jpg
+  role: Miembro
+  summary: Miembro de grupo estudiantil enfocado en proyectos y competencias de robótica.
+  tags: ["robotics"]
+  # url: ""
+
+- name: Vehículo Autónomo Guiado
+  logo: /images/sections/projects/agv.jpg
+  role: Desarrollador
+  summary: Robot móvil diseñado para navegación autónoma en entornos controlados.
+  tags: ["robotics"]
+  # repo: ""
+  # url: ""
+
+- name: Router CNC Vertical | Simulación MATLAB
+  logo: /images/sections/projects/upright_cnc.jpg
+  role: Desarrollador
+  summary: Modelado y control de sistema CNC usando MATLAB para simulación y validación.
+  tags: ["control"]
+  # repo: ""
+  # url: ""
+
+- name: Torreta Láser de Apuntamiento
+  logo: /images/sections/projects/turret.jpg
+  role: Desarrollador
+  summary: Desarrollo de sistema láser de apuntamiento con control de movimiento.
+  tags: ["control"]
+  # repo: ""
+  # url: ""
+
+- name: Sistema de Consumo de Agua | LOGO! Siemens
+  logo: /images/sections/projects/logo_siemens.jpg
+  role: Desarrollador
+  summary: Sistema de automatización basado en PLC para monitoreo de consumo de agua con Siemens LOGO!.
+  tags: ["automation"]
+  # repo: ""
+  # url: ""
+
+- name: Diseño de Gripper para Recolección de Tomates
+  logo: /images/sections/projects/gripper.jpg
+  role: Diseñador
+  summary: Modelo CAD de efector final optimizado para tareas de recolección de tomates.
+  tags: ["cad"]
+  # repo: ""
+  # url: ""
+
+- name: Proyecto de Sitio Web
+  logo: /images/sections/projects/panasonic.jpg
+  role: Desarrollador
+  summary: Proyecto de desarrollo web para presentación de productos o servicios.
+  tags: ["cad"]
+  # repo: ""
+  # url: ""
+
+- name: Forja de Gas DIY con Ladrillo Refractario
+  logo: /images/sections/projects/melting_furnace.jpg
+  role: Constructor
+  summary: Forja de gas de alta temperatura construida con ladrillos refractarios para trabajo en metal.
+  tags: ["diy"]
+  # repo: ""
+  # url: ""
+
+- name: Arpa Láser Musical
+  logo: /images/sections/projects/laser_harp.jpg
+  role: Desarrollador
+  summary: Arpa electrónica interactiva usando haces láser como cuerdas virtuales.
+  tags: ["diy"]
+  # repo: ""
+  # url: ""
+
+- name: TEUS 2023 | Aerodesign
+  logo: /images/sections/projects/teus.jpg
+  role: Miembro del Equipo
+  summary: Parte del equipo de diseño y pruebas para avión competitivo de aerodesign.
+  tags: ["aerodynamics"]
+  # repo: ""
+  # url: ""
+
+- name: Cloud Surfer 2022 | Aerodesign
+  logo: /images/sections/projects/cloud_surfer.jpg
+  role: Miembro del Equipo
+  summary: Diseño aerodinámico de avión para carga útil y eficiencia.
+  tags: ["aerodynamics"]
+  # repo: ""
+  # url: ""
+
+- name: Ala Voladora RC | Aerodesign
+  logo: /images/sections/projects/delta_wing.jpg
+  role: Desarrollador
+  summary: Diseño y fabricación de ala voladora para avión RC.
+  tags: ["aerodynamics"]
+  # repo: ""
+  # url: ""
+
+- name: Banco de Pruebas de Motores | Aerodesign
+  logo: /images/sections/projects/motor_test_bench.jpg
+  role: Desarrollador
+  summary: Plataforma de pruebas para análisis de desempeño de propulsión.
+  tags: ["aerodynamics"]
+  # repo: ""
+  # url: ""
+
+- name: Análisis Aerodinámico del Perfil GOE398
+  logo: /images/sections/projects/cfd.jpg
+  role: Analista
+  summary: Análisis CFD del perfil GOE398 para caracterización aerodinámica.
+  tags: ["aerodynamics"]
+  # repo: ""
+  # url: ""
