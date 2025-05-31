@@ -1,15 +1,51 @@
 ---
 title: "Sensor Module | USB HID Interface"
-summary: "Sensor module designed for USB HID communication."
+summary: "Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ interfaces."
 date: 2024-01-01
 weight: 1
-image: "/images/sections/projects/module.jpg"
-logo: "/images/sections/projects/module.jpg"
-tags: ["electronics"]
-external_link: ""
+image: "/images/sections/projects/SensorModule/1.png"
+logo: "/images/sections/projects/SensorModule/1.png"
+tags: ["arduino", "embedded-systems", "microcontrollers", "electronics"]
 repo: ""
+external_link: ""
 draft: false
 showInProjects: true
 ---
 
-This project involved the design and implementation of a USB HID-compatible sensor module using an Arduino Pro Micro. It captures input from various digital and binary combination sensors to simulate game controller buttons for a driving simulator.
+## Overview
+
+This project involved the design and implementation of a modular sensor interface for a driving simulator system. It was designed to replicate typical vehicle control inputs and interface them as a USB Human Interface Device (HID), enabling driver action monitoring in evaluation systems.
+
+## Connected Sensors
+
+The module supports the following inputs:
+
+- Gear lever (position detection)
+- Turn signals (left/right indicators)
+- Ignition switch (start button)
+- Seatbelt sensor
+- Parking brake sensor
+- Directional indicator control
+- Extra digital Input/Output connectors
+
+## Technologies Used
+
+- **Microcontroller**: Arduino Pro Micro (ATmega32U4)
+- **Design tools**: KiCad, SolidWorks
+- **Connection standard**: RJ interfaces for modular sensor inputs
+- **USB Interface**: HID profile to be recognized as a joystick/controller
+
+## 🖼️ Gallery
+
+Here is a visual overview of the design and implementation process:
+
+{{< gallery >}}
+![Top View](../../images/sections/projects/SensorModule/top.png)
+![Angled View](../../images/sections/projects/SensorModule/angled.png)
+![Final Assembly & Wiring](../../images/sections/projects/SensorModule/final.png)
+![PCB Layout](../../images/sections/projects/SensorModule/pcb.png)
+{{< /gallery >}}
+
+## 📝 Notes
+
+This module was used in a project of a driving simulator used to assess drivers and issue driving licences tests.
