@@ -27,133 +27,133 @@ buttons:
 
 projects:
 - name: UR10 Solving Hanoi Tower
-  logo: /images/sections/projects/UR_ik/1.png
+  # logo: /images/sections/projects/UR_ik/1.png
   image: /images/sections/projects/UR_ik/1.png
   role: Developer
   summary: Implementation of inverse kinematics for UR10 robot arm solving Hanoi Tower.
   tags: ["robotics"]
 
 - name: Object Collecting Robot
-  logo: /images/sections/projects/xy_robot/1.png
+  # logo: /images/sections/projects/xy_robot/1.png
   image: /images/sections/projects/xy_robot/1.png
   role: Developer
   summary: Robot designed in SolidWorks and programmed in LabVIEW for object collection.
   tags: ["robotics"]
 
 - name: Robociety | Student Group
-  logo: /images/sections/projects/Robociety/3.jpg
+  # logo: /images/sections/projects/Robociety/3.jpg
   image: /images/sections/projects/Robociety/3.jpg
   role: Member
   summary: Member of student group focused on robotics projects and competitions.
   tags: ["robotics"]
 
 - name: Autonomous Guided Vehicle
-  logo: /images/sections/projects/AGV/1.png
+  # logo: /images/sections/projects/AGV/1.png
   image: /images/sections/projects/AGV/1.png
   role: Developer
   summary: Mobile robot designed for autonomous navigation in controlled environments.
   tags: ["robotics"]
 
 - name: Upright CNC Router | MATLAB Simulation
-  logo: /images/sections/projects/UprightCNC/01.png
+  # logo: /images/sections/projects/UprightCNC/01.png
   image: /images/sections/projects/UprightCNC/01.png
   role: Developer
   summary: CNC system modeling and control using MATLAB for simulation and validation.
   tags: ["control"]
 
 - name: Self Targeting Laser Turret
-  logo: /images/sections/projects/STT/1.png
+  # logo: /images/sections/projects/STT/1.png
   image: /images/sections/projects/STT/1.png
   role: Developer
   summary: Development of a laser targeting system with motion control.
   tags: ["control"]
 
 - name: Water Consumption System | LOGO! Siemens
-  logo: /images/sections/projects/LOGO/0.jpg
+  # logo: /images/sections/projects/LOGO/0.jpg
   image: /images/sections/projects/LOGO/0.jpg
   role: Developer
   summary: PLC-based automation system for monitoring water consumption using Siemens LOGO!.
   tags: ["automation"]
 
 - name: Automated Conveyor with Metal Detection | PLC S1200
-  logo: /images/sections/projects/TB/1.jpg
+  # logo: /images/sections/projects/TB/1.jpg
   image: /images/sections/projects/TB/1.jpg
   role: Developer
   summary: Conveyor automation system with integrated metal detection and bag sealing.
   tags: ["automation"]
 
 - name: Sensor Module | USB HID Interface
-  logo: /images/sections/projects/SensorModule/1.png
+  # logo: /images/sections/projects/SensorModule/1.png
   image: /images/sections/projects/SensorModule/1.png
   role: Developer
   summary: Sensor module designed for USB HID communication in a driving simulator.
   tags: ["electronics"]
 
 - name: DC Variable Power Source
-  logo: /images/sections/projects/DCPS/1.png
+  # logo: /images/sections/projects/DCPS/1.png
   image: /images/sections/projects/DCPS/1.png
   role: Developer
   summary: Custom-built DC power source with variable voltage output.
   tags: ["electronics"]
 
 - name: Gripper Design for Harvesting Tomatoes
-  logo: /images/sections/projects/Gripper/0.png
+  # logo: /images/sections/projects/Gripper/0.png
   image: /images/sections/projects/Gripper/0.png
   role: Designer
   summary: End-effector CAD model optimized for tomato harvesting tasks.
   tags: ["cad"]
 
 - name: Welding Robot ARM | CAD Design
-  logo: /images/sections/projects/Welding Robot/1.jpg
+  # logo: /images/sections/projects/Welding Robot/1.jpg
   image: /images/sections/projects/Welding Robot/1.jpg
   role: Designer
   summary: 3D CAD modeling of a robotic arm for automated welding.
   tags: ["cad"]
 
 - name: DIY Gas Forge with Hard Fire Brick
-  logo: /images/sections/projects/Forge/0.png
+  # logo: /images/sections/projects/Forge/0.png
   image: /images/sections/projects/Forge/0.png
   role: Builder
   summary: High-temperature gas forge constructed using fire bricks for metal work.
   tags: ["diy"]
 
 - name: Musical Laser Harp
-  logo: /images/sections/projects/LaserHarp/1.png
+  # logo: /images/sections/projects/LaserHarp/1.png
   image: /images/sections/projects/LaserHarp/1.png
   role: Developer
   summary: Interactive electronic harp using laser beams as virtual strings.
   tags: ["diy"]
 
 - name: TEUS 2023 | Aerodesign
-  logo: /images/sections/projects/Teus/1.png
+  # logo: /images/sections/projects/Teus/1.png
   image: /images/sections/projects/Teus/1.png
   role: Team Member
   summary: Part of the design and testing team for competitive aerodesign aircraft.
   tags: ["aerodynamics"]
 
 - name: Cloud Surfer 2022 | Aerodesign
-  logo: /images/sections/projects/CloudSurfer/1.png
+  # logo: /images/sections/projects/CloudSurfer/1.png
   image: /images/sections/projects/CloudSurfer/1.png
   role: Team Member
   summary: Aerodynamic aircraft design for payload and efficiency.
   tags: ["aerodynamics"]
 
 - name: RC Flying Wing | Aerodesign
-  logo: /images/sections/projects/RC_FlyingWing/1.png
+  # logo: /images/sections/projects/RC_FlyingWing/1.png
   image: /images/sections/projects/RC_FlyingWing/1.png
   role: Developer
   summary: Design and fabrication of a flying wing RC aircraft.
   tags: ["aerodynamics"]
 
 - name: Motor Test Bench | Aerodesign
-  logo: /images/sections/projects/MotorBench/1.png
+  # logo: /images/sections/projects/MotorBench/1.png
   image: /images/sections/projects/MotorBench/1.png
   role: Developer
   summary: Motor performance testing platform for propulsion analysis.
   tags: ["aerodynamics"]
 
 - name: Aerodynamics Analysis of GOE398 Profile
-  logo: /images/sections/projects/Convergence/1.png
+  # logo: /images/sections/projects/Convergence/1.png
   image: /images/sections/projects/Convergence/1.png
   role: Analyst
   summary: CFD analysis of the GOE398 airfoil for aerodynamic characterization.
