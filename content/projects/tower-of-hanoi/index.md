@@ -1,7 +1,7 @@
 ---
 title: "Tower of Hanoi Solver | Industrial Robotics"
 date: 2024-04-01
-description: Coded the inverse kinematics of a UR10e robot using Python and tested it by solving a Tower of Hanoi with 7 movements where the relative error of the robot pose was under 0.1%.
+description: Coded the inverse kinematics of a UR10e robot using Python and tested it by solving a Tower of Hanoi with 7 movements.
 menu:
   sidebar:
     name: Tower of Hanoi Solver

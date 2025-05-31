@@ -27,7 +27,7 @@ buttons:
 
 projects:
 - name: UR10 Solving Hanoi Tower
-  # logo: /images/sections/projects/UR_ik/1.png
+  logo: /images/sections/projects/UR_ik/1.png
   image: /images/sections/projects/UR_ik/1.png
   role: Developer
   summary: Implementation of inverse kinematics for UR10 robot arm solving Hanoi Tower.
