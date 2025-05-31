@@ -30,7 +30,7 @@ The firmware handles input logic and emulates a USB joystick using the Joystick.
 - Arduino Pro Micro with custom firmware  
 - Logical handling of multiple inputs  
 - 3D printed enclosure, PCB-ready for future upgrade  
-- Real-time USB joystick mapping  
+- Real-time USB joystick mapping.
 
 ## Technologies Used
 

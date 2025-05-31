@@ -1,0 +1,48 @@
+---
+title: "Tower of Hanoi Solver | Industrial Robotics"
+date: 2024-04-01
+description: Coded the inverse kinematics of a UR10e robot using Python and tested it by solving a Tower of Hanoi with 7 movements where the relative error of the robot pose was under 0.1%.
+menu:
+  sidebar:
+    name: Tower of Hanoi Solver
+    identifier: hanoi-solver
+    parent: projects
+    weight: 20
+hero: images/1.png
+tags:
+  - Python
+  - UR10e
+  - Inverse Kinematics
+  - Automation
+  - Robotics
+categories:
+  - Robotics
+---
+
+## Industrial Robotics – Tower of Hanoi Solver
+
+**Brief Description**  
+Developed a Python-based inverse kinematics solution for a UR10e industrial robot to solve the classic Tower of Hanoi problem.
+
+**Project Overview**  
+• Implemented custom inverse kinematics in Python for precise pose calculation.  
+• Designed and executed a sequence of 7 movements to solve a 3-disc Tower of Hanoi.  
+• Controlled the UR10e through an interface between Python and the robot controller.  
+• Achieved high precision: relative error under 0.1% in all poses.  
+• Verified accuracy through real-time visualization and UR10e feedback.
+
+**Key Achievements**  
+• Successfully programmed automated multi-step manipulation.  
+• Integrated theoretical models with industrial robot application.  
+• Reinforced knowledge in kinematics, Python scripting, and robotic accuracy evaluation.
+
+**Tools and Technologies**  
+• Python  
+• UR10e Robot (Universal Robots)  
+• URScript interface
+
+## Gallery
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
+  <img src="images/1.png" alt="ur10" style="width: 100%; border-radius: 8px;">
+</div>
