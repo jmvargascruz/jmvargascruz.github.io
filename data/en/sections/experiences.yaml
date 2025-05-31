@@ -13,133 +13,57 @@ experiences:
     url: "#"
     location: Netherlands
     logo: /images/sections/experiences/riwo.png
-    overview: Internship focused on the development of SLAM algorithms and sensor integration using ROS 2.
+    overview: Internship focused on SLAM algorithm design and sensor fusion using ROS 2.
   positions:
   - designation: Robotics & SLAM Intern
     start: Jan 2024
     end: Jul 2024
     responsibilities:
-    - Designed and implemented an EKF-SLAM algorithm using ROS 2 to map RFID tags, using wheel odometry, IMU data and Loop closures by tag redetections.
-    - Developed and structured ROS 2 workspace with all the packages and nodes required for the simulationof the tag mapping SLAM.
-    - Simulated the system using Gazebo and visualized localization and mapping results with RViz.
-    - Created analysis scripts using Python and Jupyter Notebooks to extract and plot data from ROS 2 bag files.
+    - Designed and implemented an EKF-SLAM algorithm in ROS 2 to map RFID tags using wheel odometry, IMU data, and loop closures through tag re-detections.
+    - Structured and maintained a ROS 2 workspace with packages and nodes required for the SLAM simulation pipeline.
+    - Simulated the system in Gazebo and visualized localization and mapping outputs in RViz.
+    - Developed data analysis scripts using Python and Jupyter Notebooks to process and visualize results from ROS 2 bag files.
 
 - company:
     name: Magana S.A de C.V
     url: "#"
     location: Mexico
     logo: /images/sections/experiences/magana.png
-    overview: Textile company specialized in fabric inspection systems and production solutions.
+    overview: Textile company specialized in fabric inspection systems and industrial automation.
   positions:
   - designation: Electrical System Engineer
     start: Apr 2023
     end: Aug 2023
     responsibilities:
-    - Documented the electrical and sensor systems of a fabric inspection machine using KiCad.
-    - Participated in disassembly and reassembly tasks for the system’s replication and manufacturing.
-    - Described the interface between a graphical user interface (GUI) and a microcontroller via serial communication.
-    - Analyzed system components including an encoder for position sensing, relay-based lamp control, and a VFD for AC motor drive.
+    - Documented the electrical and sensor subsystems of a fabric inspection machine using KiCad.
+    - Participated in the disassembly and reassembly of the machine for manufacturing and replication purposes.
+    - Described key components including encoder-based position sensing, relay-based feedback lighting, and frequency drive control of AC motors.
 
 - company:
     name: Independent Contractor
     url: "#"
     location: Mexico
     logo: /images/sections/experiences/independent.png
-    overview: Freelance engineering services.
+    overview: Freelance engineering services focused on hardware integration and real-time sensor systems.
   positions:
   - designation: Mechatronics Engineer
     start: Dec 2022
     end: Jun 2023
     responsibilities:
-    - Developed a USB HID-compatible acquisition module using Arduino Pro Micro for a driving simulator input.
-    - Integrated sensors to detect directional indicators, gear lever position, ignition state, and seatbelt usage, among others.
-    - Enabled the mapping of multiple sensor states to simulator controls for the driver evaluation system.
+    - Designed and implemented a USB HID acquisition module using an Arduino Pro Micro for a driving simulator interface.
+    - Integrated sensors to detect turn signals, gear position, ignition state, and seatbelt engagement for automated driver evaluation.
+    - Enabled mapping of multiple input states to simulator commands to replicate real-world vehicle behavior.
+
 - company:
     name: Tecnológico de Monterrey
     url: "https://tec.mx"
     location: Mexico
     logo: /images/sections/experiences/tec.png
-    # overview: 
+    overview: Prestigious private university known for excellence in engineering and innovation.
   positions:
   - designation: Teaching Assistant – Differential Equations
     start: 2018
     end: 2021
     responsibilities:
-    - Supported first-semester engineering students in Differential Equations coursework.
-    - Collaborated in the university’s tutoring program.
-
-
-
-# # section information
-# section:
-#   name: Experiences
-#   id: experiences
-#   enable: true
-#   weight: 3
-#   showOnNavbar: true
-#   # Can optionally hide the title in sections
-#   # hideTitle: true 
-
-# # Your experiences
-# experiences:
-# - company:
-#     name: Example Co.
-#     url: "https://www.example.com"
-#     location: Dhaka Branch
-#     logo: /images/sections/experiences/company1.jpg
-#     # Can optionally show a different logo for dark theme
-#     # darkLogo: /images/sections/experiences/company1.jpg
-#     # company overview
-#     overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
-#   positions:
-#   - designation: Senior Software Engineer
-#     start: Nov 2019
-#     # don't provide end date if you are currently working there. It will be replaced by "Present"
-#     # end: Dec 2020
-#     # give some points about what was your responsibilities at the company.
-#     responsibilities:
-#     - Design and develop XYZ tool for ABC task
-#     - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-#     - Lead backend team.
-
-#   - designation: Junior Software Engineer
-#     start: Nov 2017
-#     end: Oct 2019
-#     responsibilities:
-#     - Implement and test xyz feature for abc tool.
-#     - Support client for abc tool.
-#     - Learn k,d,w technology for xyz.
-
-# - company:
-#     name: PreExample Co.
-#     url: "https://www.example.com"
-#     location: Nowhere
-#     logo: /images/sections/experiences/company2.jpg
-#     # Can optionally show a different logo for dark theme
-#     # darkLogo: /images/sections/experiences/company2.jpg
-#     overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-#   positions:
-#   - designation: Software Engineer
-#     start: March 2016
-#     end: May 2017
-#     responsibilities:
-#     - Write lots of example codes.
-#     - Read lots of examples.
-#     - See lots of example videos.
-
-# - company:
-#     name: Intern Counting Company (ICC).
-#     url: "https://www.example.com"
-#     location: Intern Land
-#     logo: /images/sections/experiences/company3.jpg
-#     # Can optionally show a different logo for dark theme
-#     # darkLogo: /images/sections/experiences/company3.jpg
-#     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-#   positions:
-#   - designation: Intern
-#     start: Jun 2015
-#     end: Jan 2016
-#     responsibilities:
-#     - Count lost of interns.
-#     - Count more interns.
-#     - Count me as an intern.
+    - Provided academic support to first-semester engineering students in Differential Equations.
+    - Participated in the official university tutoring program.
