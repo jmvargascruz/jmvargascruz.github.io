@@ -6,35 +6,34 @@ section:
   weight: 6
   showOnNavbar: true
 
-# section summary
-# Puedes dejarlo en blanco o escribir algo como:
+# section summary (optional)
 # summary: A selection of my published work.
 
 # filter buttons
 buttons:
-- name: All
-  filter: "all"
-- name: Automation
-  filter: "automation"
-- name: IoT
-  filter: "iot"
-- name: Sustainability
-  filter: "sustainability"
+  - name: All
+    filter: "all"
+  - name: Automation
+    filter: "automation"
+  - name: IoT
+    filter: "iot"
+  - name: Sustainability
+    filter: "sustainability"
 
 # your publications
 publications:
-- title: Water Consumption Monitoring System and Home Automation Based on LOGO! 8.3 and AWS Cloud Connection
-  publishedIn:
-    name: IEEE
-    date: 2023
-    url: https://ieeexplore.ieee.org/document/10011459
-  authors:
-  - name: Jesus Manuel Vargas-Cruz
-  - name: Carlos Eduardo Vidal-Villeda
-  - name: Carlos Alberto
-  - name: Pedro Camelo-Romero
-  paper:
-    summary: This paper presents a home automation system designed to promote water conservation using Siemens LOGO! 8.3 modules. The solution integrates three subsystems: water usage monitoring, rainwater harvesting with irrigation, and lighting control. Real-time remote access is enabled via AWS Cloud. The system highlights how technology can assist informed users in sustainable water use.
-    url: https://ieeexplore.ieee.org/document/10011459
-  categories: ["automation", "iot", "sustainability"]
-  tags: ["Home Automation", "LOGO! 8.3", "AWS", "Water Monitoring", "Sustainable Design"]
+  - title: "Water Consumption Monitoring System and Home Automation Based on LOGO! 8.3 and AWS Cloud Connection"
+    publishedIn:
+      name: "IEEE"
+      date: 2023
+      url: "https://ieeexplore.ieee.org/document/10011459"
+    authors:
+      - name: "Jesus Manuel Vargas-Cruz"
+      - name: "Carlos Eduardo Vidal-Villeda"
+      - name: "Carlos Alberto"
+      - name: "Pedro Camelo-Romero"
+    paper:
+      summary: "This paper presents a home automation system designed to promote water conservation using Siemens LOGO! 8.3 modules. The solution integrates three subsystems: water usage monitoring, rainwater harvesting with irrigation, and lighting control. Real-time remote access is enabled via AWS Cloud. The system highlights how technology can assist informed users in sustainable water use."
+      url: "https://ieeexplore.ieee.org/document/10011459"
+    categories: ["automation", "iot", "sustainability"]
+    tags: ["Home Automation", "LOGO! 8.3", "AWS", "Water Monitoring", "Sustainable Design"]
