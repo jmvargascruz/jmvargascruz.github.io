@@ -41,19 +41,19 @@ This project involved the design and implementation of a modular sensor interfac
 ## Gallery
 
 
-{{< img src="images/top.png" title="Top View" align="center" width="600" >}}
+{{< img src="images/top.png" title="Top View" align="center" width="300" >}}
 
 {{< vs >}}
 
-{{< img src="images/angled.png" title="Angled View" align="center" width="600" >}}
+{{< img src="images/angled.png" title="Angled View" align="center" width="300" >}}
 
 {{< vs >}}
 
-{{< img src="images/final.png" title="Final Assembly" align="center" width="600" >}}
+{{< img src="images/final.png" title="Final Assembly" align="center" width="300" >}}
 
 {{< vs >}}
 
-{{< img src="images/pcb.png" title="PCB Layout" align="center" width="600" >}}
+{{< img src="images/pcb.png" title="PCB Layout" align="center" width="300" >}}
 
 
 
