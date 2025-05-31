@@ -28,7 +28,7 @@ experiences:
     name: Magana S.A de C.V
     url: "#"
     location: Mexico
-    logo: /images/sections/experiences/magana.png
+    # logo: /images/sections/experiences/magana.png
     overview: Textile company specialized in fabric inspection systems and industrial automation.
   positions:
   - designation: Electrical System Engineer
@@ -43,7 +43,7 @@ experiences:
     name: Independent Contractor
     url: "#"
     location: Mexico
-    logo: /images/sections/experiences/independent.png
+    # logo: /images/sections/experiences/independent.png
     overview: Freelance engineering services focused on hardware integration and real-time sensor systems.
   positions:
   - designation: Mechatronics Engineer
@@ -58,7 +58,7 @@ experiences:
     name: Tecnológico de Monterrey
     url: "https://tec.mx"
     location: Mexico
-    logo: /images/sections/experiences/tec.png
+    logo: /images/sections/experiences/tec.webp
     overview: Prestigious private university known for excellence in engineering and innovation.
   positions:
   - designation: Teaching Assistant – Differential Equations
