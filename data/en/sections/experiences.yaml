@@ -9,6 +9,22 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: RIWO Engineering
+    url: "#"
+    location: Netherlands
+    logo: /images/sections/experiences/riwo.png
+    overview: Internship focused on the development of SLAM algorithms and sensor integration using ROS 2.
+  positions:
+  - designation: Robotics & SLAM Intern
+    start: Jan 2024
+    end: Jul 2024
+    responsibilities:
+    - Designed and implemented an EKF-SLAM algorithm using ROS 2 to map RFID tags, using wheel odometry, IMU data and Loop closures by tag redetections.
+    - Developed and structured ROS 2 workspace with all the packages and nodes required for the simulationof the tag mapping SLAM.
+    - Simulated the system using Gazebo and visualized localization and mapping results with RViz.
+    - Created analysis scripts using Python and Jupyter Notebooks to extract and plot data from ROS 2 bag files.
+
+- company:
     name: Magana S.A de C.V
     url: "#"
     location: Mexico
@@ -19,35 +35,40 @@ experiences:
     start: Apr 2023
     end: Aug 2023
     responsibilities:
-    - Developed documentation for electrical and sensor circuits of a fabric inspection machine.
-    - Supported replication and manufacturing of new inspection systems.
+    - Documented the electrical and sensor systems of a fabric inspection machine using KiCad.
+    - Participated in disassembly and reassembly tasks for the system’s replication and manufacturing.
+    - Described the interface between a graphical user interface (GUI) and a microcontroller via serial communication.
+    - Analyzed system components including an encoder for position sensing, relay-based lamp control, and a VFD for AC motor drive.
 
 - company:
     name: Independent Contractor
     url: "#"
     location: Mexico
     logo: /images/sections/experiences/independent.png
-    overview: Freelance engineering services focused on electronics, robotics, and software development.
+    overview: Freelance engineering services.
   positions:
   - designation: Mechatronics Engineer
     start: Dec 2022
     end: Jun 2023
     responsibilities:
-    - Designed and developed a data acquisition module for a driving simulator.
-    - Worked on hardware and software integration for licensing evaluation systems.
-
+    - Developed a USB HID-compatible acquisition module using Arduino Pro Micro for a driving simulator input.
+    - Integrated sensors to detect directional indicators, gear lever position, ignition state, and seatbelt usage, among others.
+    - Enabled the mapping of multiple sensor states to simulator controls for the driver evaluation system.
 - company:
     name: Tecnológico de Monterrey
     url: "https://tec.mx"
     location: Mexico
     logo: /images/sections/experiences/tec.png
-    overview: Prestigious private university recognized for its excellence in engineering and technology education.
+    # overview: 
   positions:
-  - designation: Math Tutor
+  - designation: Teaching Assistant – Differential Equations
     start: 2018
     end: 2021
     responsibilities:
-    - Provided tutoring support to undergraduate students in mathematics courses.
+    - Supported first-semester engineering students in Differential Equations coursework.
+    - Collaborated in the university’s tutoring program.
+
+
 
 # # section information
 # section:
