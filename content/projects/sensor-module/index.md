@@ -20,27 +20,25 @@ categories:
 
 ## Overview
 
-This project consists of the design and implementation of a modular sensor interface for a driving simulator. The goal is to replicate the control inputs from sensors or devices found in a real vehicle—such as the gear lever, turn signals, ignition switch, and others—and convert them into signals that can be read by a computer using a USB connection.
-The module works as a standard USB Human Interface Device (HID), similar to a joystick or game controller, allowing it to be recognized easily.
-The system uses an Arduino Pro Micro, which includes native USB support and is well-suited for HID communication. Each sensor is connected through RJ-type connectors to keep the design clean, modular, and easy to maintain or modify.
+This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.
 
-## Connected Sensors
+The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.
 
-The interface supports the following input devices:
+## Key Features
 
-- Gear lever (position detection)
-- Turn signals (left/right indicators)
-- Ignition switch (start button)
-- Seatbelt sensor
-- Parking brake sensor
-- Directional indicator control
+- Plug-and-play sensors via RJ45 connectors  
+- Arduino Pro Micro with custom firmware  
+- Logical handling of multiple inputs  
+- 3D printed enclosure, PCB-ready for future upgrade  
+- Real-time USB joystick mapping  
 
 ## Technologies Used
 
-- **Microcontroller**: Arduino Pro Micro (ATmega32U4)
-- **Design tools**: KiCad for PCB design, SolidWorks for mechanical modeling
-- **Connection interface**: RJ connectors for modular sensor integration
-- **USB communication**: HID protocol for native joystick compatibility
+- 3D CAD (SolidWorks)  
+- PCB design (KiCad)  
+- Arduino C++  
+- Joystick.h HID library  
+- 3D printing  
 
 ## Gallery
 
@@ -49,4 +47,9 @@ The interface supports the following input devices:
   <img src="images/angled.png" alt="Angled View">
   <img src="images/final.png" alt="Final Assembly">
   <img src="images/pcb.png" alt="PCB Layout">
+  <img src="images/module.png" alt="Module">
+  <img src="images/pcb_design_1.png" alt="PCB">
+  <img src="images/module2.png" alt="module">
+  <img src="images/pcb_design_2.png" alt="PCB 2">
+  <img src="images/module_N.png" alt="module_N">
 </div>
