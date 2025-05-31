@@ -12,9 +12,13 @@ degrees:
   icon: fa-robot
   timeframe: 2023–Present
   institution:
-    name: University of Twente
-    url: "https://www.utwente.nl/en/"
-    logo: /images/sections/education/logo-university-of-twente.png
+  name: University of Twente
+  url: "https://www.utwente.nl/en/"
+  logo: /images/sections/education/logo-university-of-twente.png
+  customSections:
+  - name: Specialization
+  content: Algorithms, Software and Artificial Intelligence
+
 
 - name: B.Sc. in Mechatronic Engineering
   icon: fa-cogs
