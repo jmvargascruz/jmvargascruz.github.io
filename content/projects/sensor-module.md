@@ -40,7 +40,7 @@ The module supports the following inputs:
 Here is a visual overview of the design and implementation process:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
-  <img src="/images/sections/projects/SensorModule/top.png" alt="Top View">
+  <img src="/assets/images/sections/projects/SensorModule/top.png" alt="Top View">
   <img src="/images/sections/projects/SensorModule/angled.png" alt="Angled View">
   <img src="/images/sections/projects/SensorModule/final.png" alt="Final Assembly & Wiring">
   <img src="/images/sections/projects/SensorModule/pcb.png" alt="PCB Layout">
