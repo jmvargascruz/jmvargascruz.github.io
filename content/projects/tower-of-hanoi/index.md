@@ -8,7 +8,7 @@ menu:
     identifier: hanoi-tower
     parent: projects
     weight: 20
-hero: images/1.png
+hero: /projects/tower-of-hanoi/images/1.png
 tags:
   - Python
   - UR10e
@@ -44,5 +44,5 @@ Developed a Python-based inverse kinematics solution for a UR10e industrial robo
 ## Gallery
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
-  <img src="images/1.png" alt="ur10" style="width: 100%; border-radius: 8px;">
+  <img src="/projects/tower-of-hanoi/images/1.png" alt="UR10 Hanoi Tower Solver" style="width: 100%; border-radius: 8px;">
 </div>

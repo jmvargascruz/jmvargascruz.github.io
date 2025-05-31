@@ -34,8 +34,6 @@ projects:
   tags: ["robotics"]
   url: "/projects/hanoi-tower"
   
-
-
 - name: Object Collecting Robot
   # logo: /images/sections/projects/xy_robot/1.png
   image: /images/sections/projects/xy_robot/1.png
