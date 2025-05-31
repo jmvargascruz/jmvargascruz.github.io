@@ -81,15 +81,14 @@ projects:
   role: Developer
   summary: Conveyor automation system with integrated metal detection and bag sealing.
   tags: ["automation"]
-
+ 
 - name: Sensor Module | USB HID Interface
   logo: /images/sections/projects/module.jpg
-  image: /images/sections/projects/module.jpg
+  image: /images/sections/projects/SensorModule/1.png
   role: Developer
   summary: Sensor module designed for USB HID communication.
   tags: ["electronics"]
   url: "/projects/sensor-module"
-
 
 - name: DC Variable Power Source
   # logo: /images/sections/projects/DCPS/1.png
