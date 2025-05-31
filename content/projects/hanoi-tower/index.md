@@ -21,7 +21,6 @@ categories:
 
 ## Industrial Robotics – Tower of Hanoi Solver
 
-**Brief Description**  
 Developed a Python-based inverse kinematics solution for a UR10e industrial robot to solve the classic Tower of Hanoi problem.
 
 **Project Overview**  
@@ -29,17 +28,11 @@ Developed a Python-based inverse kinematics solution for a UR10e industrial robo
 • Designed and executed a sequence of 7 movements to solve a 3-disc Tower of Hanoi.  
 • Controlled the UR10e through an interface between Python and the robot controller.  
 • Achieved high precision: relative error under 0.1% in all poses.  
-• Verified accuracy through real-time visualization and UR10e feedback.
 
-**Key Achievements**  
-• Successfully programmed automated multi-step manipulation.  
-• Integrated theoretical models with industrial robot application.  
-• Reinforced knowledge in kinematics, Python scripting, and robotic accuracy evaluation.
 
 **Tools and Technologies**  
 • Python  
-• UR10e Robot (Universal Robots)  
-• URScript interface
+• UR10 Robot (Universal Robots)  
 
 ## Gallery
 
