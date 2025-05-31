@@ -5,7 +5,7 @@ description: Coded the inverse kinematics of a UR10e robot using Python and test
 menu:
   sidebar:
     name: Tower of Hanoi Solver
-    identifier: hanoi-solver
+    identifier: hanoi-tower
     parent: projects
     weight: 20
 hero: images/1.png
