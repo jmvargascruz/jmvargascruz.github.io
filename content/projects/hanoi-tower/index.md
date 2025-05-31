@@ -36,6 +36,8 @@ Developed a Python-based inverse kinematics solution for a UR10e industrial robo
 
 ## Gallery
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
+{{< img src="images/1.png" height="400" width="600" title="UR10 Hanoi Tower Solver" >}}
+
+<!-- <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
   <img src="images/1.png" alt="UR10 Hanoi Tower Solver" style="width: 100%; border-radius: 8px;">
-</div>
+</div> -->
