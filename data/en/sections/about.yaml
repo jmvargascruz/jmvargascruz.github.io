@@ -20,9 +20,8 @@ designation: Mechatronics Engineer & Robotics Master's Student
 
 # a summary about you
 summary: > 
-  Hey there! I’m a mechatronics engineer from Mexico who loves building and designing cool stuff. 
-  I’m into robotics, electronics, and software, and I enjoy mixing these skills to create fun and useful projects.
-  Whether it’s automation or just tinkering with new ideas, I’m always up for a challenge.
+  Hey there! I’m a mechatronics engineer from Mexico who loves building and designing cool projects. 
+  I’m into mechatronics, robotics, electronics, and software, whether it’s automation or just tinkering with new ideas, I’m always up for a challenge.
   Here, I’ll be sharing what I’m working on and the things I’m passionate about.
 
 
@@ -64,9 +63,13 @@ socialLinks:
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
-resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
+
+############################
+# resourceLinks:
+# - title: "My Resume"
+#   url: "files/resume.pdf"
+#############################
+
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

@@ -14,7 +14,7 @@ degrees:
   institution:
     name: University of Twente
     url: "https://www.utwente.nl/en/"
-    logo: /images/sections/education/utwente.png
+    logo: /images/sections/education/logo-university-of-twente.png
 
 - name: B.Sc. in Mechatronic Engineering
   icon: fa-cogs
@@ -22,15 +22,15 @@ degrees:
   institution:
     name: Tecnológico de Monterrey
     url: "https://tec.mx"
-    logo: /images/sections/education/tec.png
+    logo: /images/sections/education/tec.webp
   publications:
   - title: "Water Consumption Monitoring System and Home Automation Based on LOGO! 8.3 and AWS Cloud Connection"
     url: "https://ieeexplore.ieee.org/document/10011459"
   extracurricularActivities:
-  - Scholarship for Academic Talent
-  - Member of the student group Aerodesign
-  - Member of the student group Robociety
-  - CENEVAL National Award for Outstanding Performance in Mechatronics
+  - Academic Talent Scholarship recipient
+  - Member of Aerodesign student group
+  - Member of Robociety student group
+  - National CENEVAL Award for Outstanding Performance in Mechatronics
 
 - name: High School Diploma
   icon: fa-university
@@ -40,8 +40,10 @@ degrees:
     url: "https://paideia.mx/"
     logo: /images/sections/education/paideia.png
   extracurricularActivities:
-  - 1st place in the XXVII State Chemistry Olympiad (Estado de México)
-  - 2nd place in the XXVII National Chemistry Olympiad
+  - 1st place – XXVII State Chemistry Olympiad (Estado de México)
+  - 2nd place – XXVII National Chemistry Olympiad
+
+
 
 # # section information
 # section:
