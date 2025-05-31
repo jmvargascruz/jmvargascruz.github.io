@@ -84,7 +84,7 @@ projects:
  
 - name: Sensor Module | USB HID Interface
   logo: /images/sections/projects/module.jpg
-  image: /images/sections/projects/SensorModule/1.png
+  image: /images/sections/projects/SensorModule/final.png
   role: Developer
   summary: Sensor module designed for USB HID communication.
   tags: ["electronics"]
