@@ -4,8 +4,8 @@ date: 2024-01-01
 description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
 menu:
   sidebar:
-    name: Sensor Module
-    identifier: laser-turret
+    name: Motor Test Bench
+    identifier: motor-test-bench
     parent: projects
     weight: 31
 hero: images/1.png

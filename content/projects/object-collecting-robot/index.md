@@ -4,7 +4,7 @@ date: 2024-01-01
 description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
 menu:
   sidebar:
-    name: Sensor Module
+    name: Object Collecting Robot
     identifier: object-collecting-robot
     parent: projects
     weight: 31

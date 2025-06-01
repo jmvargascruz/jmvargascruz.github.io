@@ -1,10 +1,10 @@
 ---
-title: "Water consumption system based on LOGO! Siemens"
+title: "Water consumption monitoring system based on LOGO! Siemens"
 date: 2024-01-01
 description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
 menu:
   sidebar:
-    name: Sensor Module
+    name: Water consumption monitoring system
     identifier: water-consumption
     parent: projects
     weight: 36
