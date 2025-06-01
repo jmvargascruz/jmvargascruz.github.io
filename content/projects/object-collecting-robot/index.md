@@ -1,5 +1,5 @@
 ---
-title: "Sensor Module | USB HID Interface"
+title: "Object Collecting Robot | Simulation and Control with Solidworks and LabVIEW"
 date: 2024-01-01
 description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
 menu:
