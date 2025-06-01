@@ -83,7 +83,6 @@ projects:
   tags: ["automation"]
   url: "/projects/water-consumption"
 
-
 - name: Automated Conveyor with Metal Detection | PLC S1200
   # logo: /images/sections/projects/TB/1.jpg
   image: /images/sections/projects/TB/1.jpg
