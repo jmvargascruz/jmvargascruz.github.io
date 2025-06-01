@@ -19,6 +19,7 @@ categories:
   - Robotics
 ---
 
+
 ## Industrial Robotics – Tower of Hanoi Solver
 
 Developed a Python-based inverse kinematics solution for a UR10e industrial robot to solve the classic Tower of Hanoi problem.
