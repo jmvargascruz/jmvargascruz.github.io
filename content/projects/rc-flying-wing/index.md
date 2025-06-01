@@ -5,7 +5,7 @@ description: Modular sensor input system for driving simulators, designed with A
 menu:
   sidebar:
     name: Sensor Module
-    identifier: sensor-module
+    identifier: rc-flying-wing
     parent: projects
     weight: 10
 hero: images/1.png

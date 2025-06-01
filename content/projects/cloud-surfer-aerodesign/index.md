@@ -1,13 +1,13 @@
 ---
-title: "Sensor Module | USB HID Interface"
+title: "Cloud Surfer 2022 | Aerodesign"
 date: 2024-01-01
 description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
 menu:
   sidebar:
-    name: Sensor Module
-    identifier: sensor-module
+    name: Cloud Surfer
+    identifier: cloud-surfer-aerodesign
     parent: projects
-    weight: 10
+    weight: 24
 hero: images/1.png
 tags:
   - Arduino

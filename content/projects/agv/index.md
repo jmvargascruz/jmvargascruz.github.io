@@ -1,13 +1,13 @@
 ---
-title: "Sensor Module | USB HID Interface"
+title: "Autonomous Mobile Vehicle"
 date: 2024-01-01
 description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
 menu:
   sidebar:
-    name: Sensor Module
-    identifier: sensor-module
+    name: Autonomous Mobile Vehicle
+    identifier: amr
     parent: projects
-    weight: 10
+    weight: 21
 hero: images/1.png
 tags:
   - Arduino

@@ -5,9 +5,9 @@ description: Modular sensor input system for driving simulators, designed with A
 menu:
   sidebar:
     name: Sensor Module
-    identifier: sensor-module
+    identifier: teus-aerodesign
     parent: projects
-    weight: 10
+    weight: 34
 hero: images/1.png
 tags:
   - Arduino

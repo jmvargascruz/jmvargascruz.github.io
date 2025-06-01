@@ -1,13 +1,13 @@
 ---
-title: "Sensor Module | USB HID Interface"
+title: "Aerodynamics Analysis of GOE398 profile"
 date: 2024-01-01
 description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
 menu:
   sidebar:
-    name: Sensor Module
-    identifier: sensor-module
+    name: CFD Analysis
+    identifier: cfd-analysis
     parent: projects
-    weight: 10
+    weight: 23
 hero: images/1.png
 tags:
   - Arduino

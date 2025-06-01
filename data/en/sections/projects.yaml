@@ -40,7 +40,7 @@ projects:
   role: Developer
   summary: Robot designed in SolidWorks and programmed in LabVIEW for object collection.
   tags: ["robotics"]
-  url: "/projects/hanoi-tower"
+  url: "/projects/object-collecting-robot"
 
 - name: Robociety | Student Group
   # logo: /images/sections/projects/Robociety/3.jpg
@@ -48,15 +48,15 @@ projects:
   role: Member
   summary: Member of student group focused on robotics projects and competitions.
   tags: ["robotics"]
-  url: "/projects/hanoi-tower"
+  url: "/projects/robociety"
 
-- name: Autonomous Guided Vehicle
+- name: Autonomous Mobile Vehicle
   # logo: /images/sections/projects/AGV/1.png
   image: /images/sections/projects/AGV/1.png
   role: Developer
   summary: Mobile robot designed for autonomous navigation in controlled environments.
   tags: ["robotics"]
-  url: "/projects/hanoi-tower"
+  url: "/projects/amr"
 
 - name: Upright CNC Router | MATLAB Simulation
   # logo: /images/sections/projects/UprightCNC/01.png
@@ -64,7 +64,7 @@ projects:
   role: Developer
   summary: CNC system modeling and control using MATLAB for simulation and validation.
   tags: ["control"]
-  url: "/projects/hanoi-tower"
+  url: "/projects/upright-cnc"
 
   
 - name: Self Targeting Laser Turret
@@ -73,7 +73,7 @@ projects:
   role: Developer
   summary: Development of a laser targeting system with motion control.
   tags: ["control"]
-  url: "/projects/hanoi-tower"
+  url: "/projects/laser-turret"
 
 - name: Water Consumption System | LOGO! Siemens
   # logo: /images/sections/projects/LOGO/0.jpg
@@ -81,6 +81,8 @@ projects:
   role: Developer
   summary: PLC-based automation system for monitoring water consumption using Siemens LOGO!.
   tags: ["automation"]
+  url: "/projects/water-consumption"
+
 
 - name: Automated Conveyor with Metal Detection | PLC S1200
   # logo: /images/sections/projects/TB/1.jpg
@@ -88,6 +90,7 @@ projects:
   role: Developer
   summary: Conveyor automation system with integrated metal detection and bag sealing.
   tags: ["automation"]
+  url: "/projects/automated-conveyor"
  
 - name: Sensor Module | USB HID Interface
   logo: /images/sections/projects/module.jpg
@@ -103,6 +106,7 @@ projects:
   role: Developer
   summary: Custom-built DC power source with variable voltage output.
   tags: ["electronics"]
+  url: "/projects/dc-power-source"
 
 - name: Gripper Design for Harvesting Tomatoes
   # logo: /images/sections/projects/Gripper/0.png
@@ -110,6 +114,7 @@ projects:
   role: Designer
   summary: End-effector CAD model optimized for tomato harvesting tasks.
   tags: ["cad"]
+  url: "/projects/gripper-design"
 
 - name: Welding Robot ARM | CAD Design
   # logo: /images/sections/projects/Welding Robot/1.jpg
@@ -117,6 +122,7 @@ projects:
   role: Designer
   summary: 3D CAD modeling of a robotic arm for automated welding.
   tags: ["cad"]
+  url: "/projects/welding-robot-arm"
 
 - name: DIY Gas Forge with Hard Fire Brick
   # logo: /images/sections/projects/Forge/0.png
@@ -124,6 +130,7 @@ projects:
   role: Builder
   summary: High-temperature gas forge constructed using fire bricks for metal work.
   tags: ["diy"]
+  url: "/projects/diy-forge"
 
 - name: Musical Laser Harp
   # logo: /images/sections/projects/LaserHarp/1.png
@@ -131,6 +138,7 @@ projects:
   role: Developer
   summary: Interactive electronic harp using laser beams as virtual strings.
   tags: ["diy"]
+  url: "/projects/musical-laser-harp"
 
 - name: TEUS 2023 | Aerodesign
   # logo: /images/sections/projects/Teus/1.png
@@ -138,6 +146,7 @@ projects:
   role: Team Member
   summary: Part of the design and testing team for competitive aerodesign aircraft.
   tags: ["aerodynamics"]
+  url: "/projects/teus-aerodesign"
 
 - name: Cloud Surfer 2022 | Aerodesign
   # logo: /images/sections/projects/CloudSurfer/1.png
@@ -145,6 +154,7 @@ projects:
   role: Team Member
   summary: Aerodynamic aircraft design for payload and efficiency.
   tags: ["aerodynamics"]
+  url: "/projects/cloud-surfer-aerodesign"
 
 - name: RC Flying Wing | Aerodesign
   # logo: /images/sections/projects/RC_FlyingWing/1.png
@@ -152,6 +162,7 @@ projects:
   role: Developer
   summary: Design and fabrication of a flying wing RC aircraft.
   tags: ["aerodynamics"]
+  url: "/projects/rc-flying-wing"
 
 - name: Motor Test Bench | Aerodesign
   # logo: /images/sections/projects/MotorBench/1.png
@@ -159,6 +170,7 @@ projects:
   role: Developer
   summary: Motor performance testing platform for propulsion analysis.
   tags: ["aerodynamics"]
+  url: "/projects/motor-test-bench"
 
 - name: Aerodynamics Analysis of GOE398 Profile
   # logo: /images/sections/projects/Convergence/1.png
@@ -166,4 +178,5 @@ projects:
   role: Analyst
   summary: CFD analysis of the GOE398 airfoil for aerodynamic characterization.
   tags: ["aerodynamics"]
+  url: "/projects/cfd-analysis"
 

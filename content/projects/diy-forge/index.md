@@ -1,13 +1,13 @@
 ---
-title: "Sensor Module | USB HID Interface"
+title: "DIY Gas Forge with Hard Fire Brick"
 date: 2024-01-01
 description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
 menu:
   sidebar:
-    name: Sensor Module
-    identifier: sensor-module
+    name: DIY Forge
+    identifier: diy-forge
     parent: projects
-    weight: 10
+    weight: 25
 hero: images/1.png
 tags:
   - Arduino

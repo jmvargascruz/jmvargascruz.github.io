@@ -1,13 +1,13 @@
 ---
-title: "Self Targeting Laser Turret"
+title: "Sensor Module | USB HID Interface"
 date: 2024-01-01
 description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
 menu:
   sidebar:
-    name: Laser Turret
-    identifier: laser-turret
+    name: Sensor Module
+    identifier: welding-robot-arm
     parent: projects
-    weight: 29
+    weight: 37
 hero: images/1.png
 tags:
   - Arduino

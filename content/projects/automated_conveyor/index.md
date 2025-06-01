@@ -1,13 +1,13 @@
 ---
-title: "Sensor Module | USB HID Interface"
+title: "Automated Conveyor System with Metal Detection and Bag Sealing Integration | PLC S1200"
 date: 2024-01-01
 description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
 menu:
   sidebar:
-    name: Sensor Module
-    identifier: sensor-module
+    name: Automated Conveyor
+    identifier: automated_conveyor
     parent: projects
-    weight: 10
+    weight: 22
 hero: images/1.png
 tags:
   - Arduino

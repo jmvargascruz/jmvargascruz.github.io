@@ -7,7 +7,7 @@ menu:
     name: Tower of Hanoi Solver
     identifier: hanoi-tower
     parent: projects
-    weight: 11
+    weight: 28
 hero: images/1.png
 tags:
   - Python
