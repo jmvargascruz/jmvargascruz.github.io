@@ -7,7 +7,7 @@ menu:
     name: DC Variable Power Source
     identifier: dc-power-source
     parent: projects
-    weight: 33
+    weight: 36
 hero: images/1.png
 tags:
   - PCB Design

@@ -7,7 +7,7 @@ menu:
     name: Autonomous Mobile Vehicle
     identifier: amr
     parent: projects
-    weight: 36
+    weight: 33
 hero: images/agv.png
 tags:
   - ROS
