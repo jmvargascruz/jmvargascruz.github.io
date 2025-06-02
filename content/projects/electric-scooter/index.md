@@ -8,7 +8,7 @@ menu:
     identifier: electric-scooter
     parent: projects
     weight: 38
-hero: images/scooter_front.png
+hero: images/2.png
 tags:
   - CAD Design
   - Structural Analysis

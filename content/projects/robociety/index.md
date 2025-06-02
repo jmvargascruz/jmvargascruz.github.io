@@ -1,55 +1,59 @@
 ---
 title: "Robociety | Student Group"
 date: 2024-01-01
-description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
+description: Student-initiated robotics team focused on competitive robot design including mini-sumo, micro-sumo, and maze-solving robots.
 menu:
   sidebar:
     name: Robociety
     identifier: robociety
     parent: projects
     weight: 32
-hero: images/1.png
+hero: images/2.jpg
 tags:
-  - Arduino
-  - Embedded Systems
-  - Microcontrollers
+  - Robotics
   - Electronics
+  - Embedded Systems
+  - CAD Design
 categories:
   - Robotics
 ---
 
 ## Overview
 
-This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.
+Robociety was a student robotics group dedicated to the design and development of small robots for competitions. The team focused on mini-sumo, micro-sumo, and maze-solving categories.
+As cofounder, I contributed to the group’s on embedded control, mechanical design, and printed circuit boards.
 
-The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.
+## My Role
 
-## Key Features
-
-- Plug-and-play sensors via RJ45 connectors  
-- Arduino Pro Micro with custom firmware  
-- Logical handling of multiple inputs  
-- 3D printed enclosure, PCB-ready for future upgrade  
-- Real-time USB joystick mapping.
+- Cofounde
+- Development of PCB layouts
+- Mechanical design of compact robot frames and gear systems  
+- Firmware development 
 
 ## Technologies Used
 
-- 3D CAD (SolidWorks)  
-- PCB design (KiCad)  
-- Arduino C++  
-- Joystick.h HID library  
-- 3D printing  
+- SolidWorks for CAD and assembly  
+- KiCAD for PCB design  
+- Arduino (C/C++) for embedded control logic  
+- Infrared and ultrasonic sensors for detection  
+- Brushed DC motors with gear reductions  
 
 ## Gallery
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
-  <img src="images/top.png" alt="Top View">
-  <img src="images/angled.png" alt="Angled View">
-  <img src="images/final.png" alt="Final Assembly">
-  <img src="images/pcb.png" alt="PCB Layout">
-  <img src="images/module.png" alt="Module">
-  <img src="images/pcb_design_1.png" alt="PCB">
-  <img src="images/module2.png" alt="module">
-  <img src="images/pcb_design_2.png" alt="PCB 2">
-  <img src="images/module_N.png" alt="module_N">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
+  <img src="images/1.jpg" alt="1">
+  <img src="images/2.jpg" alt="1">
+  <img src="images/4.jpg" alt="1">
+  <img src="images/5.jpg" alt="1">
+  <img src="images/6.png" alt="1">
+  <img src="images/7.png" alt="1">
+  <img src="images/8.jpg" alt="1">
+  <img src="images/9.jpg" alt="1">
+  <img src="images/10.jpg" alt="1">
+  <img src="images/11.jpg" alt="1">
+  <img src="images/12.jpg" alt="1">
+  <img src="images/13.jpg" alt="1">
+  <img src="images/14.jpg" alt="1">
+
+
 </div>
