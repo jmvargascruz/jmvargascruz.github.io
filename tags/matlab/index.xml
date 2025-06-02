@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MATLAB on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/tags/matlab/</link><description>Recent content in MATLAB on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/tags/matlab/index.xml" rel="self" type="application/rss+xml"/><item><title>Self-Targeting Laser Turret</title><link>https://jmvargascruz.github.io/projects/laser-turret/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/laser-turret/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project involved designing and implementing a two-axis laser turret capable of tracking a moving red circular target in real-time. The system integrates a webcam, MATLAB for image processing, and an Arduino for PID-based actuation. The goal was to keep a laser pointer aimed at the target within a 1 m × 1 m workspace for at least 20 continuous seconds.&lt;/p>
+&lt;h2 id="system-description">System Description&lt;/h2>
+&lt;p>The vision subsystem detects the position of a red object using color segmentation in MATLAB. This position is sent to the Arduino through serial communication. The Arduino processes the coordinates and drives two DC motors via a manually tuned PID controller to align the turret accordingly.&lt;/p></description></item><item><title>Upright CNC Router | MATLAB Simulation</title><link>https://jmvargascruz.github.io/projects/upright-cnc/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/upright-cnc/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project consisted of modeling and simulating a vertical CNC router using MATLAB. The system was designed to demonstrate position control over two perpendicular linear axes (X and Y), mimicking the behavior of a basic CNC machine.&lt;/p>
+&lt;p>The model includes actuator dynamics, position feedback, and trajectory generation, with the control logic implemented in discrete time using PID controllers.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>2-axis CNC system simulation&lt;/li>
+&lt;li>Upright router configuration modeled in 3D CAD&lt;/li>
+&lt;li>Discrete PID control implemented in MATLAB&lt;/li>
+&lt;li>Visualization of tool motion and path tracking&lt;/li>
+&lt;li>Position reference generation for square and circular trajectories&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-used">Technologies Used&lt;/h2>
+&lt;ul>
+&lt;li>MATLAB and Simulink&lt;/li>
+&lt;li>Control System Toolbox&lt;/li>
+&lt;li>SolidWorks for mechanical modeling&lt;/li>
+&lt;/ul>
+&lt;h2 id="gallery">Gallery&lt;/h2>
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 10px;">
+&lt;img src="images/0.png" alt=" ">
+&lt;img src="images/2.png" alt=" ">
+&lt;/div>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/pjHPmVw_3UI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div></description></item></channel></rss>

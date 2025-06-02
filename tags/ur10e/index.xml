@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UR10e on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/tags/ur10e/</link><description>Recent content in UR10e on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/tags/ur10e/index.xml" rel="self" type="application/rss+xml"/><item><title>Tower of Hanoi Solver | Industrial Robotics</title><link>https://jmvargascruz.github.io/projects/hanoi-tower/</link><pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/hanoi-tower/</guid><description>&lt;h2 id="industrial-robotics--tower-of-hanoi-solver">Industrial Robotics – Tower of Hanoi Solver&lt;/h2>
+&lt;p>Developed a Python-based inverse kinematics solution for a UR10e industrial robot to solve the classic Tower of Hanoi problem.&lt;/p>
+&lt;p>&lt;strong>Project Overview&lt;/strong>&lt;/p>
+&lt;p>• Implemented custom inverse kinematics in Python for precise pose calculation.&lt;br>
+• Designed and executed a sequence of 7 movements to solve a 3-disc Tower of Hanoi.&lt;br>
+• Controlled the UR10e through an interface between Python and the robot controller.&lt;br>
+• Achieved high precision: relative error under 0.1% in all poses.&lt;/p></description></item></channel></rss>

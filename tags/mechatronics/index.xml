@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mechatronics on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/tags/mechatronics/</link><description>Recent content in Mechatronics on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/tags/mechatronics/index.xml" rel="self" type="application/rss+xml"/><item><title>Automated Conveyor | Siemens S1200 PLC</title><link>https://jmvargascruz.github.io/projects/automated-conveyor/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/automated-conveyor/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project consists of an automated conveyor system programmed in ladder logic using Siemens TIA Portal. The system handles item inspection, grouping, and packaging. It is designed to reject metallic contaminants, count valid items, and seal them into bags as part of a defined automation cycle.&lt;/p>
+&lt;h2 id="system-behavior">System Behavior&lt;/h2>
+&lt;ul>
+&lt;li>A start button activates the conveyor.&lt;/li>
+&lt;li>Items are placed on the belt at a fixed rate of 1 per second.&lt;/li>
+&lt;li>A metal sensor checks each item:
+&lt;ul>
+&lt;li>If metal is detected, a pneumatic actuator ejects it.&lt;/li>
+&lt;li>Non-metallic items continue and are counted.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>After five valid items are collected:
+&lt;ul>
+&lt;li>A heat-sealing actuator seals the bag.&lt;/li>
+&lt;li>A second actuator ejects the sealed bag and triggers a sound alert.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The system pauses until a new bag is placed and the resume button is pressed.&lt;/li>
+&lt;li>After three bags are sealed, the system stops automatically.&lt;/li>
+&lt;/ul>
+&lt;h2 id="tools-and-technologies">Tools and Technologies&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Software:&lt;/strong> TIA Portal, Siemens Ladder Logic&lt;/li>
+&lt;li>&lt;strong>PLC:&lt;/strong> Siemens S7-1200 PLC (simulated)&lt;/li>
+&lt;li>&lt;strong>Actuators:&lt;/strong> Pneumatic actuators, heat sealer&lt;/li>
+&lt;li>&lt;strong>Sensors:&lt;/strong> Inductive proximity sensor for metal detection&lt;/li>
+&lt;/ul>
+&lt;h2 id="video">Video&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/bgzaS4JFpUc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div></description></item><item><title>Electric Scooter | Mechatronic Design Project</title><link>https://jmvargascruz.github.io/projects/electric-scooter/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/electric-scooter/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project focused on the design and development of an electric scooter as part of a mechatronic design course. The process followed a complete engineering methodology including user needs analysis, system architecture, mechanical and electronic design, simulation, and manufacturability evaluation.&lt;/p>
+&lt;p>The project integrated CAD modeling, structural analysis, circuit design, and simulations to create a functional and realistic design tailored for urban and off-road use.&lt;/p>
+&lt;h2 id="design-methodology">Design Methodology&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>User-Centered Design&lt;/strong>: Needs analysis using surveys and translation of requirements via QFD and House of Quality&lt;/li>
+&lt;li>&lt;strong>System Modeling&lt;/strong>: Functional decomposition, black-box representation, and system flow diagrams&lt;/li>
+&lt;li>&lt;strong>Concept Evaluation&lt;/strong>: Morphological matrix for idea generation and Pugh chart for selection&lt;/li>
+&lt;li>&lt;strong>Mechanical Structure&lt;/strong>: Modular frame based on aluminum extrusions, foldable design with reinforced hinges&lt;/li>
+&lt;li>&lt;strong>Electrical System&lt;/strong>: Simulated in Proteus, including throttle control, MOSFET-based driver, and LCD feedback display&lt;/li>
+&lt;li>&lt;strong>Simulation and Validation&lt;/strong>:
+&lt;ul>
+&lt;li>Static structural FEA (Von Mises, displacement)&lt;/li>
+&lt;li>Modal analysis to identify natural frequencies (69.5 Hz to 325.5 Hz)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Manufacturing Plan&lt;/strong>: Designed for low-cost fabrication using conventional tools, avoiding CNC dependence&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>Max speed over 25 km/h&lt;/li>
+&lt;li>Modular structure using aluminum profiles&lt;/li>
+&lt;li>Foldable mechanism for easy storage&lt;/li>
+&lt;li>Display for battery level and speed feedback&lt;/li>
+&lt;li>Off-road capable wheels&lt;/li>
+&lt;li>Manual and electronic braking systems&lt;/li>
+&lt;li>Cost-effective design (estimated under $12,000 MXN)&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-used">Technologies Used&lt;/h2>
+&lt;ul>
+&lt;li>SolidWorks for 3D modeling and assembly&lt;/li>
+&lt;li>FEA simulation&lt;/li>
+&lt;li>Proteus for circuit simulation&lt;/li>
+&lt;li>Arduino for speed control and display interface&lt;/li>
+&lt;li>Lead-acid or Li-ion battery packs (18650 cells)&lt;/li>
+&lt;li>DC brushed or BLDC in-wheel motors (24V–48V, 250–500 W)&lt;/li>
+&lt;/ul>
+&lt;h2 id="gallery">Gallery&lt;/h2>
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
+&lt;img src="images/1.png" alt="Full Assembly">
+&lt;img src="images/2.png" alt=" ">
+&lt;img src="images/3.png" alt=" ">
+&lt;img src="images/4.png" alt=" ">
+&lt;/div></description></item></channel></rss>

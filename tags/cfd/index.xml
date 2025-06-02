@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CFD on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/tags/cfd/</link><description>Recent content in CFD on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/tags/cfd/index.xml" rel="self" type="application/rss+xml"/><item><title>Aerodynamic Analysis of GOE398 Airfoil | Ansys Fluent</title><link>https://jmvargascruz.github.io/projects/cfd-analysis/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/cfd-analysis/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project consists of a computational fluid dynamics (CFD) analysis of the GOE398 airfoil using Ansys Fluent. The objective was to evaluate the airfoil’s aerodynamic behavior at various angles of attack under steady-state conditions. The study includes pressure and velocity fields, as well as lift and drag coefficient.&lt;/p>
+&lt;p>The results were included in a presentation at the XVII Ansys Convergence Mexico 2020, focused on basic aerodynamic analysis.&lt;/p>
+&lt;h2 id="methodology">Methodology&lt;/h2>
+&lt;ul>
+&lt;li>The airfoil profile was modeled in 2D.&lt;/li>
+&lt;li>Simulations were performed for angles of attack between 0° and 20°.&lt;/li>
+&lt;li>A structured mesh was generated and refined near the boundary layer.&lt;/li>
+&lt;/ul>
+&lt;h2 id="analysis-parameters">Analysis Parameters&lt;/h2>
+&lt;ul>
+&lt;li>Pressure coefficient distribution&lt;/li>
+&lt;li>Velocity magnitude and streamlines&lt;/li>
+&lt;li>Lift and drag coefficient estimation&lt;/li>
+&lt;li>Stall onset and boundary layer behavior&lt;/li>
+&lt;/ul>
+&lt;h2 id="tools-and-technologies">Tools and Technologies&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Simulation:&lt;/strong> Ansys Fluent&lt;/li>
+&lt;/ul></description></item><item><title>Cloud Surfer 2022 | Aerodesign</title><link>https://jmvargascruz.github.io/projects/cloud-surfer-aerodesign/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/cloud-surfer-aerodesign/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Cloud Surfer 2022 was a radio-controlled cargo aircraft developed as part of the SAE Aerodesign Mexico competition. The project focused on aerodynamic optimization, structural feasibility, and payload integration within competition constraints.&lt;/p>
+&lt;h2 id="tools-and-technologies">Tools and Technologies&lt;/h2>
+&lt;ul>
+&lt;li>SolidWorks for 3D modeling&lt;/li>
+&lt;li>Ansys Fluent for CFD simulation&lt;/li>
+&lt;li>XFLR5 for preliminary aerodynamic analysis&lt;/li>
+&lt;li>MATLAB for performance estimation&lt;/li>
+&lt;/ul>
+&lt;h2 id="gallery">Gallery&lt;/h2>
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+&lt;!-- &lt;img src="images/top.png" alt="Top View">
+&lt;img src="images/angled.png" alt="Angled View">
+&lt;img src="images/final.png" alt="Final Assembly">
+&lt;img src="images/pcb.png" alt="PCB Layout">
+&lt;img src="images/module.png" alt="Module">
+&lt;img src="images/pcb_design_1.png" alt="PCB">
+&lt;img src="images/module2.png" alt="module">
+&lt;img src="images/pcb_design_2.png" alt="PCB 2">
+&lt;img src="images/module_N.png" alt="module_N"> -->
+&lt;/div></description></item></channel></rss>

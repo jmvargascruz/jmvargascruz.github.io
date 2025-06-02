@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Robotics on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/categories/robotics/</link><description>Recent content in Robotics on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/categories/robotics/index.xml" rel="self" type="application/rss+xml"/><item><title>Tower of Hanoi Solver | Industrial Robotics</title><link>https://jmvargascruz.github.io/projects/hanoi-tower/</link><pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/hanoi-tower/</guid><description>&lt;h2 id="industrial-robotics--tower-of-hanoi-solver">Industrial Robotics – Tower of Hanoi Solver&lt;/h2>
+&lt;p>Developed a Python-based inverse kinematics solution for a UR10e industrial robot to solve the classic Tower of Hanoi problem.&lt;/p>
+&lt;p>&lt;strong>Project Overview&lt;/strong>&lt;/p>
+&lt;p>• Implemented custom inverse kinematics in Python for precise pose calculation.&lt;br>
+• Designed and executed a sequence of 7 movements to solve a 3-disc Tower of Hanoi.&lt;br>
+• Controlled the UR10e through an interface between Python and the robot controller.&lt;br>
+• Achieved high precision: relative error under 0.1% in all poses.&lt;/p></description></item><item><title>Autonomous Mobile Vehicle</title><link>https://jmvargascruz.github.io/projects/amr/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/amr/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>We developed an Autonomous Mobile Vehicle using a combination of Jetson Xavier for high-level processing, RPLIDAR A3 for mapping and localization, and an Arduino Mega for low-level actuation. Our team designed and implemented the electrical system, control interfaces, CAD mounts, and ROS integration. The AGV successfully navigated autonomously within the mapped area of CIMA using ROS, Hector SLAM, and TEB Local Planner.&lt;/p>
+&lt;h2 id="project-highlights">Project Highlights:&lt;/h2>
+&lt;ul>
+&lt;li>Designed and fabricated a reinforced electrical wiring system&lt;/li>
+&lt;li>Integrated voltage converters (48V to 12V, 12V to 5V, 12V to 19V) for safe and efficient power management.&lt;/li>
+&lt;li>Replaced the steering motor with a 24V scooter motor and sprocket system, integrating a potentiometer for angular feedback.&lt;/li>
+&lt;li>Mounted the RPLIDAR on a custom laser-cut platform aligned with the vehicle’s center.&lt;/li>
+&lt;li>Installed Jetson Xavier with secure custom mount and configured ROS-based autonomous navigation.&lt;/li>
+&lt;li>Generated a live map of the CIMA building and planned paths using Hector SLAM and TEB Planner.&lt;/li>
+&lt;li>Programmed mode switching between autonomous and manual via RC control&lt;/li>
+&lt;li>Developed and deployed Python ROS nodes to communicate velocity commands using ROS Serial&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-and-tools-used">Technologies and Tools Used&lt;/h2>
+&lt;ul>
+&lt;li>Hardware: Jetson Xavier, Arduino Mega, RPLIDAR A3, DC motors, step-down converters, relays.&lt;/li>
+&lt;li>Software: ROS, RViz, Hector SLAM, TEB Planner, Python, GIMP, SolidWorks&lt;/li>
+&lt;/ul>
+&lt;h2 id="gallery">Gallery&lt;/h2>
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+&lt;img src="images/agv.png" alt="AMR">
+&lt;img src="images/map.png" alt="map">
+&lt;img src="images/grid.png" alt="grid
+">
+&lt;/div></description></item><item><title>Gripper Design for Tomato Harvesting</title><link>https://jmvargascruz.github.io/projects/gripper-design/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/gripper-design/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project was part of an international university challenge focused on autonomous tomato harvesting, conducted in collaboration with Mondragon Unibertsitatea and Tecnológico de Monterrey. The main contribution involved designing and building a functional gripper prototype for the robotic system.&lt;/p>
+&lt;p>The end-effector was developed using 3D-printed components and included an integrated stepper motor, limit switch, and potentiometer. The control system was implemented on an Arduino UNO, which managed the opening and closing of the gripper based on sensor inputs.&lt;/p></description></item><item><title>Object Collecting Robot | Simulation and Control with SolidWorks and LabVIEW</title><link>https://jmvargascruz.github.io/projects/object-collecting-robot/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/object-collecting-robot/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project consisted in designing, programming, and simulating a virtual cleaning robot in a LabVIEW environment. The robot was tasked with autonomously navigating a predefined arena, identifying and collecting cans, and returning to the container zone without colliding with obstacles. The simulation included interaction with a 3D model built in SolidWorks, where the robot movements from LabVIEW were reflected in real time.&lt;/p>
+&lt;h2 id="system-behavior">System Behavior&lt;/h2>
+&lt;ul>
+&lt;li>The robot starts at a fixed home position&lt;/li>
+&lt;li>It moves one tile at a time in X and/or Y direction (no rotation)&lt;/li>
+&lt;li>Obstacles (3) and cans (8) are randomly placed in a 20x20 arena&lt;/li>
+&lt;li>When a can is detected from one of its four corners, the turret aligns to a contact angle (45º, 135º, 225º, 315º) to simulate grasping&lt;/li>
+&lt;li>The robot dynamically maps obstacles to avoid them&lt;/li>
+&lt;li>Once all cans are collected, the robot must return to the container area within 4 minutes&lt;/li>
+&lt;/ul>
+&lt;h2 id="mathematical-logic">Mathematical Logic&lt;/h2>
+&lt;ul>
+&lt;li>Robot movement follows coordinate-based logic, not continuous time&lt;/li>
+&lt;li>Discrete movement:&lt;br>
+[
+(x, y)_{t+1} = (x, y)_t + \Delta x, \Delta y \quad \text{where } \Delta x, \Delta y \in {-1, 0, 1}, |\Delta x| + |\Delta y| \leq 1
+]&lt;/li>
+&lt;li>Turret orientation is selected by conditional quadrant logic&lt;/li>
+&lt;li>Basic pathfinding implemented with coordinate validation and memory of visited positions&lt;/li>
+&lt;/ul>
+&lt;h2 id="tools-and-technologies">Tools and Technologies&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>LabVIEW&lt;/strong>: Main logic engine for control flow, decision-making, and user interface&lt;/li>
+&lt;li>&lt;strong>SolidWorks&lt;/strong>: 3D CAD modeling of the robot and simulation environment&lt;/li>
+&lt;li>&lt;strong>Real-Time Integration&lt;/strong>: Robot movements and control signals generated in LabVIEW were executed in real time within the SolidWorks simulation.&lt;/li>
+&lt;/ul>
+&lt;h2 id="achievements">Achievements&lt;/h2>
+&lt;ul>
+&lt;li>Completed the full simulation successfully in under four minutes&lt;/li>
+&lt;li>Demonstrated autonomous behavior with obstacle avoidance and object retrieval&lt;/li>
+&lt;li>Complete LabVIEW documentation and state-based control design&lt;/li>
+&lt;/ul>
+&lt;h2 id="video">Video&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Qzy49-ygo1U?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div></description></item><item><title>Robociety | Student Group</title><link>https://jmvargascruz.github.io/projects/robociety/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/robociety/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Robociety was a student robotics group dedicated to the design and development of small robots for competitions. The team focused on mini-sumo, micro-sumo, and maze-solving categories.
+As cofounder, I contributed to the group’s on embedded control, mechanical design, and printed circuit boards.&lt;/p>
+&lt;h2 id="my-role">My Role&lt;/h2>
+&lt;ul>
+&lt;li>Cofounde&lt;/li>
+&lt;li>Development of PCB layouts&lt;/li>
+&lt;li>Mechanical design of compact robot frames and gear systems&lt;/li>
+&lt;li>Firmware development&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-used">Technologies Used&lt;/h2>
+&lt;ul>
+&lt;li>SolidWorks for CAD and assembly&lt;/li>
+&lt;li>KiCAD for PCB design&lt;/li>
+&lt;li>Arduino (C/C++) for embedded control logic&lt;/li>
+&lt;li>Infrared and ultrasonic sensors for detection&lt;/li>
+&lt;li>Brushed DC motors with gear reductions&lt;/li>
+&lt;/ul>
+&lt;h2 id="gallery">Gallery&lt;/h2>
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
+&lt;img src="images/1.jpg" alt="1">
+&lt;img src="images/2.jpg" alt="1">
+&lt;img src="images/4.jpg" alt="1">
+&lt;img src="images/5.jpg" alt="1">
+&lt;img src="images/6.png" alt="1">
+&lt;img src="images/7.png" alt="1">
+&lt;img src="images/8.jpg" alt="1">
+&lt;img src="images/9.jpg" alt="1">
+&lt;img src="images/10.jpg" alt="1">
+&lt;img src="images/11.jpg" alt="1">
+&lt;img src="images/12.jpg" alt="1">
+&lt;img src="images/13.jpg" alt="1">
+&lt;img src="images/14.jpg" alt="1">
+&lt;/div></description></item><item><title>Self-Targeting Laser Turret</title><link>https://jmvargascruz.github.io/projects/laser-turret/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/laser-turret/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project involved designing and implementing a two-axis laser turret capable of tracking a moving red circular target in real-time. The system integrates a webcam, MATLAB for image processing, and an Arduino for PID-based actuation. The goal was to keep a laser pointer aimed at the target within a 1 m × 1 m workspace for at least 20 continuous seconds.&lt;/p>
+&lt;h2 id="system-description">System Description&lt;/h2>
+&lt;p>The vision subsystem detects the position of a red object using color segmentation in MATLAB. This position is sent to the Arduino through serial communication. The Arduino processes the coordinates and drives two DC motors via a manually tuned PID controller to align the turret accordingly.&lt;/p></description></item><item><title>Sensor Module | USB HID Interface</title><link>https://jmvargascruz.github.io/projects/sensor-module/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/sensor-module/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.&lt;/p>
+&lt;p>The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.&lt;/p></description></item></channel></rss>

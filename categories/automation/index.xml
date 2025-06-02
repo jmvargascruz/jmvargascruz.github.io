@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/categories/automation/</link><description>Recent content in Automation on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/categories/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Water Consumption Monitoring System | LOGO! Siemens</title><link>https://jmvargascruz.github.io/projects/water-consumption/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/water-consumption/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project consists of a programmable control system designed to monitor household water consumption using a Siemens LOGO! PLC. The system receives flow measurements from a water flow sensor and tracks total consumption over time, displaying data through a user interface panel.&lt;/p>
+&lt;p>The objective was to automate water usage tracking in domestic installations and evaluate how programmable logic controllers can be used for energy efficiency and sustainability applications.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>Real-time flow measurement using a digital flow sensor&lt;/li>
+&lt;li>Accumulated water consumption display on HMI screen&lt;/li>
+&lt;li>Alarm activation if consumption exceeds threshold&lt;/li>
+&lt;li>Integration of LOGO! Soft Comfort for ladder logic programming&lt;/li>
+&lt;li>230V-compatible input/output wiring for solenoid valve control&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-used">Technologies Used&lt;/h2>
+&lt;ul>
+&lt;li>Siemens LOGO! 12/24RCE&lt;/li>
+&lt;li>LOGO! Soft Comfort (v8)&lt;/li>
+&lt;li>Hall-effect water flow sensor&lt;/li>
+&lt;li>Relay actuators and solenoid valves&lt;/li>
+&lt;li>Ladder Logic Programming&lt;/li>
+&lt;li>Low-voltage AC wiring and safety relays&lt;/li>
+&lt;/ul>
+&lt;h2 id="gallery">Gallery&lt;/h2>
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+&lt;img src="images/0.jpg" alt="Overview of the LOGO! PLC setup">
+&lt;img src="images/1.jpg" alt="Internal wiring and I/O configuration">
+&lt;img src="images/2.jpg" alt="Ladder logic program in LOGO! Soft Comfort">
+&lt;img src="images/3.jpg" alt="Installed system with water flow sensor">
+&lt;img src="images/4.jpg" alt="HMI interface for consumption visualization">
+&lt;img src="images/5.jpg" alt="System testing in residential setup">
+&lt;/div></description></item></channel></rss>

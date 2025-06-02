@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Engineering Design on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/categories/engineering-design/</link><description>Recent content in Engineering Design on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/categories/engineering-design/index.xml" rel="self" type="application/rss+xml"/><item><title>Electric Scooter | Mechatronic Design Project</title><link>https://jmvargascruz.github.io/projects/electric-scooter/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/electric-scooter/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project focused on the design and development of an electric scooter as part of a mechatronic design course. The process followed a complete engineering methodology including user needs analysis, system architecture, mechanical and electronic design, simulation, and manufacturability evaluation.&lt;/p>
+&lt;p>The project integrated CAD modeling, structural analysis, circuit design, and simulations to create a functional and realistic design tailored for urban and off-road use.&lt;/p>
+&lt;h2 id="design-methodology">Design Methodology&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>User-Centered Design&lt;/strong>: Needs analysis using surveys and translation of requirements via QFD and House of Quality&lt;/li>
+&lt;li>&lt;strong>System Modeling&lt;/strong>: Functional decomposition, black-box representation, and system flow diagrams&lt;/li>
+&lt;li>&lt;strong>Concept Evaluation&lt;/strong>: Morphological matrix for idea generation and Pugh chart for selection&lt;/li>
+&lt;li>&lt;strong>Mechanical Structure&lt;/strong>: Modular frame based on aluminum extrusions, foldable design with reinforced hinges&lt;/li>
+&lt;li>&lt;strong>Electrical System&lt;/strong>: Simulated in Proteus, including throttle control, MOSFET-based driver, and LCD feedback display&lt;/li>
+&lt;li>&lt;strong>Simulation and Validation&lt;/strong>:
+&lt;ul>
+&lt;li>Static structural FEA (Von Mises, displacement)&lt;/li>
+&lt;li>Modal analysis to identify natural frequencies (69.5 Hz to 325.5 Hz)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Manufacturing Plan&lt;/strong>: Designed for low-cost fabrication using conventional tools, avoiding CNC dependence&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>Max speed over 25 km/h&lt;/li>
+&lt;li>Modular structure using aluminum profiles&lt;/li>
+&lt;li>Foldable mechanism for easy storage&lt;/li>
+&lt;li>Display for battery level and speed feedback&lt;/li>
+&lt;li>Off-road capable wheels&lt;/li>
+&lt;li>Manual and electronic braking systems&lt;/li>
+&lt;li>Cost-effective design (estimated under $12,000 MXN)&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-used">Technologies Used&lt;/h2>
+&lt;ul>
+&lt;li>SolidWorks for 3D modeling and assembly&lt;/li>
+&lt;li>FEA simulation&lt;/li>
+&lt;li>Proteus for circuit simulation&lt;/li>
+&lt;li>Arduino for speed control and display interface&lt;/li>
+&lt;li>Lead-acid or Li-ion battery packs (18650 cells)&lt;/li>
+&lt;li>DC brushed or BLDC in-wheel motors (24V–48V, 250–500 W)&lt;/li>
+&lt;/ul>
+&lt;h2 id="gallery">Gallery&lt;/h2>
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
+&lt;img src="images/1.png" alt="Full Assembly">
+&lt;img src="images/2.png" alt=" ">
+&lt;img src="images/3.png" alt=" ">
+&lt;img src="images/4.png" alt=" ">
+&lt;/div></description></item></channel></rss>

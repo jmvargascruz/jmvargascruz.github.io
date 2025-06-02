@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aerodynamics on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/categories/aerodynamics/</link><description>Recent content in Aerodynamics on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/categories/aerodynamics/index.xml" rel="self" type="application/rss+xml"/><item><title>RC Flying Wing | Aerodesign</title><link>https://jmvargascruz.github.io/projects/rc-flying-wing/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/rc-flying-wing/</guid><description>&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>Delta-wing flying configuration&lt;/li>
+&lt;li>Brushless motor with rear propeller&lt;/li>
+&lt;li>Elevon-based control system&lt;/li>
+&lt;li>Lightweight foam construction&lt;/li>
+&lt;li>RC electronics&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-used">Technologies Used&lt;/h2>
+&lt;ul>
+&lt;li>SolidWorks for CAD sketches&lt;/li>
+&lt;li>Manual fabrication using foam and adhesives&lt;/li>
+&lt;li>RC components (transmitter, receiver, ESC, motor, servos)&lt;/li>
+&lt;/ul></description></item><item><title>TEUS 2023 | SAE Aerodesign México</title><link>https://jmvargascruz.github.io/projects/teus-aerodesign/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/teus-aerodesign/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>&lt;strong>TEUS 2023&lt;/strong> was the aircraft designed and developed for participation in the &lt;strong>SAE Aerodesign México&lt;/strong> national competition. The objective of the contest was to construct a remote-controlled aircraft capable of lifting a maximum payload under cargo dimensional and power consumption constraints.&lt;/p>
+&lt;h2 id="contributions">Contributions&lt;/h2>
+&lt;ul>
+&lt;li>Designed the wing profile and internal structural frame using &lt;strong>SolidWorks&lt;/strong>.&lt;/li>
+&lt;li>Constructed and assembled the fuselage and propulsion elements.&lt;/li>
+&lt;li>Performed motor–propeller characterization using a custom-built test bench.&lt;/li>
+&lt;li>Participated in telemetry setup, weight distribution analysis, and test flights.&lt;/li>
+&lt;li>Competed in the official SAE Aerodesign México 2023.&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-used">Technologies Used&lt;/h2>
+&lt;ul>
+&lt;li>SolidWorks for mechanical design&lt;/li>
+&lt;/ul>
+&lt;h2 id="gallery">Gallery&lt;/h2>
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+&lt;img src="images/2.jpeg" alt="2">
+&lt;img src="images/3.jpg" alt="3">
+&lt;img src="images/4.JPEG" alt="4">
+&lt;/div></description></item></channel></rss>
