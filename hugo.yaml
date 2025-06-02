@@ -25,11 +25,11 @@ languages:
     languageName: English
     title: "Jesús Vargas Portfolio"
     weight: 1
-  es:
-    languageCode: es
-    languageName: Español
-    title: "Portafolio de Jesús Vargas"
-    weight: 2
+  # es:
+  #   languageCode: es
+  #   languageName: Español
+  #   title: "Portafolio de Jesús Vargas"
+  #   weight: 2
 # default language for the content
 defaultContentLanguage: en
 
