@@ -1,7 +1,7 @@
 ---
-title: "Object Collecting Robot | Simulation and Control with Solidworks and LabVIEW"
+title: "Object Collecting Robot | Simulation and Control with SolidWorks and LabVIEW"
 date: 2024-01-01
-description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
+description: Autonomous robot simulated in LabVIEW with 3D environment in SolidWorks for object collection tasks.
 menu:
   sidebar:
     name: Object Collecting Robot
@@ -10,46 +10,47 @@ menu:
     weight: 31
 hero: images/1.png
 tags:
-  - Arduino
-  - Embedded Systems
-  - Microcontrollers
-  - Electronics
+  - Robotics
+  - Simulation
+  - Control
 categories:
   - Robotics
 ---
 
 ## Overview
 
-This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.
+This project consisted in designing, programming, and simulating a virtual cleaning robot in a LabVIEW environment. The robot was tasked with autonomously navigating a predefined arena, identifying and collecting cans, and returning to the container zone without colliding with obstacles. The simulation included interaction with a 3D model built in SolidWorks, where the robot movements from LabVIEW were reflected in real time.
 
-The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.
+## System Behavior
 
-## Key Features
+- The robot starts at a fixed home position  
+- It moves one tile at a time in X and/or Y direction (no rotation)  
+- Obstacles (3) and cans (8) are randomly placed in a 20x20 arena  
+- When a can is detected from one of its four corners, the turret aligns to a contact angle (45º, 135º, 225º, 315º) to simulate grasping  
+- The robot dynamically maps obstacles to avoid them  
+- Once all cans are collected, the robot must return to the container area within 4 minutes  
 
-- Plug-and-play sensors via RJ45 connectors  
-- Arduino Pro Micro with custom firmware  
-- Logical handling of multiple inputs  
-- 3D printed enclosure, PCB-ready for future upgrade  
-- Real-time USB joystick mapping.
+## Mathematical Logic
 
-## Technologies Used
+- Robot movement follows coordinate-based logic, not continuous time  
+- Discrete movement:  
+  \[
+  (x, y)_{t+1} = (x, y)_t + \Delta x, \Delta y \quad \text{where } \Delta x, \Delta y \in \{-1, 0, 1\}, |\Delta x| + |\Delta y| \leq 1
+  \]  
+- Turret orientation is selected by conditional quadrant logic  
+- Basic pathfinding implemented with coordinate validation and memory of visited positions  
 
-- 3D CAD (SolidWorks)  
-- PCB design (KiCad)  
-- Arduino C++  
-- Joystick.h HID library  
-- 3D printing  
+## Tools and Technologies
 
-## Gallery
+- **LabVIEW**: Main logic engine for control flow, decision-making, and user interface  
+- **SolidWorks**: 3D CAD modeling of the robot and simulation environment  
+- **Real-Time Integration**: Robot movements and control signals generated in LabVIEW were executed in real time within the SolidWorks simulation.
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
-  <img src="images/top.png" alt="Top View">
-  <img src="images/angled.png" alt="Angled View">
-  <img src="images/final.png" alt="Final Assembly">
-  <img src="images/pcb.png" alt="PCB Layout">
-  <img src="images/module.png" alt="Module">
-  <img src="images/pcb_design_1.png" alt="PCB">
-  <img src="images/module2.png" alt="module">
-  <img src="images/pcb_design_2.png" alt="PCB 2">
-  <img src="images/module_N.png" alt="module_N">
-</div>
+## Achievements
+
+- Completed the full simulation successfully in under four minutes  
+- Demonstrated autonomous behavior with obstacle avoidance and object retrieval  
+- Complete LabVIEW documentation and state-based control design  
+
+## Video
+{{< youtube Qzy49-ygo1U >}}
