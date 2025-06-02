@@ -8,7 +8,7 @@ menu:
     identifier: sensor-module
     parent: projects
     weight: 33
-hero: images/1.png
+hero: images/final.png
 tags:
   - Arduino
   - Embedded Systems

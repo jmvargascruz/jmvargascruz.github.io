@@ -1,7 +1,7 @@
 ---
-title: "Aerodynamics Analysis of GOE398 profile"
+title: "Aerodynamic Analysis of GOE398 Airfoil | Ansys Fluent"
 date: 2024-01-01
-description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
+description: CFD simulation of the GOE398 airfoil using Ansys Fluent to study aerodynamic behavior at different angles of attack. Work presented at Ansys Convergence Mexico 2020.
 menu:
   sidebar:
     name: CFD Analysis
@@ -10,46 +10,35 @@ menu:
     weight: 23
 hero: images/1.png
 tags:
-  - Arduino
-  - Embedded Systems
-  - Microcontrollers
-  - Electronics
+  - CFD
+  - Ansys
+  - Aerodynamics
+  - Fluent
+  - Engineering
 categories:
-  - Robotics
+  - Simulation
 ---
 
 ## Overview
 
-This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.
+This project consists of a computational fluid dynamics (CFD) analysis of the GOE398 airfoil using Ansys Fluent. The objective was to evaluate the airfoil’s aerodynamic behavior at various angles of attack under steady-state conditions. The study includes pressure and velocity fields, as well as lift and drag coefficient.
 
-The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.
+The results were included in a presentation at the XVII Ansys Convergence Mexico 2020, focused on basic aerodynamic analysis.
 
-## Key Features
 
-- Plug-and-play sensors via RJ45 connectors  
-- Arduino Pro Micro with custom firmware  
-- Logical handling of multiple inputs  
-- 3D printed enclosure, PCB-ready for future upgrade  
-- Real-time USB joystick mapping.
+## Methodology
 
-## Technologies Used
+- The airfoil profile was modeled in 2D.
+- Simulations were performed for angles of attack between 0° and 20°.
+- A structured mesh was generated and refined near the boundary layer.
 
-- 3D CAD (SolidWorks)  
-- PCB design (KiCad)  
-- Arduino C++  
-- Joystick.h HID library  
-- 3D printing  
+## Analysis Parameters
 
-## Gallery
+- Pressure coefficient distribution
+- Velocity magnitude and streamlines
+- Lift and drag coefficient estimation
+- Stall onset and boundary layer behavior
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
-  <img src="images/top.png" alt="Top View">
-  <img src="images/angled.png" alt="Angled View">
-  <img src="images/final.png" alt="Final Assembly">
-  <img src="images/pcb.png" alt="PCB Layout">
-  <img src="images/module.png" alt="Module">
-  <img src="images/pcb_design_1.png" alt="PCB">
-  <img src="images/module2.png" alt="module">
-  <img src="images/pcb_design_2.png" alt="PCB 2">
-  <img src="images/module_N.png" alt="module_N">
-</div>
+## Tools and Technologies
+
+- **Simulation:** Ansys Fluent  

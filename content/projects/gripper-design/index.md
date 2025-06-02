@@ -1,55 +1,59 @@
 ---
-title: "Gripper design for harvesting tomatoes"
+title: "Gripper Design for Tomato Harvesting"
 date: 2024-01-01
-description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
+description: End-effector subsystem for a robotic tomato harvesting system, integrating sensors and actuators with Arduino control.
 menu:
   sidebar:
-    name: Gripper design
+    name: Gripper Design
     identifier: gripper-design
     parent: projects
     weight: 27
-hero: images/1.png
+hero: images/7.jpeg
 tags:
   - Arduino
   - Embedded Systems
-  - Microcontrollers
-  - Electronics
+  - Robotics
+  - 3D Printing
+  - Actuators
 categories:
   - Robotics
 ---
 
 ## Overview
 
-This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.
+This project was part of an international university challenge focused on autonomous tomato harvesting, conducted in collaboration with Mondragon Unibertsitatea and Tecnológico de Monterrey. The main contribution involved designing and building a functional gripper prototype for the robotic system.
 
-The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.
+The end-effector was developed using 3D-printed components and included an integrated stepper motor, limit switch, and potentiometer. The control system was implemented on an Arduino UNO, which managed the opening and closing of the gripper based on sensor inputs.
 
-## Key Features
+## System Integration
 
-- Plug-and-play sensors via RJ45 connectors  
-- Arduino Pro Micro with custom firmware  
-- Logical handling of multiple inputs  
-- 3D printed enclosure, PCB-ready for future upgrade  
-- Real-time USB joystick mapping.
+The gripper was mounted on a UR10 collaborative robot programmed to follow a predefined trajectory. The system was validated by successfully picking a tomato and placing it in a container.
+
+## Main Features
+
+- 3D-printed mechanical gripper
+- Stepper motor for actuation
+- Potentiometer for position feedback
+- Limit switch for motion limits
+- Arduino-based embedded control
+- UR10e robotic arm integration
 
 ## Technologies Used
 
-- 3D CAD (SolidWorks)  
-- PCB design (KiCad)  
-- Arduino C++  
-- Joystick.h HID library  
-- 3D printing  
+- SolidWorks for 3D design  
+- Arduino UNO for stepper motor control  
+- UR10e for robot motion execution  
+- Manual wiring and prototyping tools  
 
 ## Gallery
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
-  <img src="images/top.png" alt="Top View">
-  <img src="images/angled.png" alt="Angled View">
-  <img src="images/final.png" alt="Final Assembly">
-  <img src="images/pcb.png" alt="PCB Layout">
-  <img src="images/module.png" alt="Module">
-  <img src="images/pcb_design_1.png" alt="PCB">
-  <img src="images/module2.png" alt="module">
-  <img src="images/pcb_design_2.png" alt="PCB 2">
-  <img src="images/module_N.png" alt="module_N">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 10px;">
+  <img src="images/2.png" alt="2">
+  <img src="images/1.png" alt="1">
+  <img src="images/3.png" alt="3">
+  <img src="images/4.jpeg" alt="4">
+  <img src="images/5.jpeg" alt="5">
+  <img src="images/6.jpeg" alt="6">
+  <img src="images/7.jpeg" alt="7">
+
 </div>

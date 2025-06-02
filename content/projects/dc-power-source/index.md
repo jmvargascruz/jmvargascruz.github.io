@@ -1,55 +1,43 @@
 ---
 title: "DC Variable Power Source"
 date: 2024-01-01
-description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
+description: Adjustable DC power supply project designed using analog components and fabricated on a custom PCB. Outputs stable voltage between 0 V and 20 V.
 menu:
   sidebar:
-    name: DC Variable Power Sourc
+    name: DC Variable Power Source
     identifier: dc-power-source
     parent: projects
     weight: 26
 hero: images/1.png
 tags:
-  - Arduino
-  - Embedded Systems
-  - Microcontrollers
-  - Electronics
+  - PCB Design
+  - Power Supply
+  - Circuit Design
 categories:
-  - Robotics
+  - Electronics
 ---
 
 ## Overview
 
-This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.
+This project consists of the design and implementation of a variable DC power supply. The system provides an output voltage ranging from 0 V to 20 V. The circuit was simulated in Proteus, fabricated on a custom PCB.
 
-The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.
+- Variable voltage output: 0 V to 20 V  
+- LM317 regulator
+- Full-wave bridge rectifier and smoothing capacitors  
+- Manual adjustment via potentiometer  
+- Integrated voltmeter display  
+- Validated output stability under varying load conditions
 
-## Key Features
+## Tools and Components
 
-- Plug-and-play sensors via RJ45 connectors  
-- Arduino Pro Micro with custom firmware  
-- Logical handling of multiple inputs  
-- 3D printed enclosure, PCB-ready for future upgrade  
-- Real-time USB joystick mapping.
-
-## Technologies Used
-
-- 3D CAD (SolidWorks)  
-- PCB design (KiCad)  
-- Arduino C++  
-- Joystick.h HID library  
-- 3D printing  
+- Simulation: Proteus 
+- Fabrication: PCBWay  
 
 ## Gallery
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
-  <img src="images/top.png" alt="Top View">
-  <img src="images/angled.png" alt="Angled View">
-  <img src="images/final.png" alt="Final Assembly">
-  <img src="images/pcb.png" alt="PCB Layout">
-  <img src="images/module.png" alt="Module">
-  <img src="images/pcb_design_1.png" alt="PCB">
-  <img src="images/module2.png" alt="module">
-  <img src="images/pcb_design_2.png" alt="PCB 2">
-  <img src="images/module_N.png" alt="module_N">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;">
+  <img src="images/1.png" alt="1">
+  <img src="images/4.png" alt="4">
+  <img src="images/5.png" alt="5">
+
 </div>

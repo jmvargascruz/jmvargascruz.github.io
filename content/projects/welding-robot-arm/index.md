@@ -1,7 +1,7 @@
 ---
 title: "CAD | Welding Robot ARM"
 date: 2024-01-01
-description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
+description: 3D CAD modeling of a robotic welding arm designed for automation applications, focusing on articulation and workspace analysis.
 menu:
   sidebar:
     name: CAD | Welding Robot ARM
@@ -10,46 +10,40 @@ menu:
     weight: 37
 hero: images/1.png
 tags:
-  - Arduino
-  - Embedded Systems
-  - Microcontrollers
-  - Electronics
-categories:
+  - CAD Design
   - Robotics
+  - SolidWorks
+  - Industrial Automation
+categories:
+  - CAD Design
 ---
 
 ## Overview
 
-This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.
+This project involved the 3D CAD design of a robotic arm intended for automated welding tasks in industrial environments. The model includes articulated joints, an end-effector mount for welding tools, and structural supports, all designed to evaluate kinematic reach and workspace coverage.
 
-The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.
+The objective was to design a functional and manufacturable mechanical model suitable for simulation and potential prototyping.
 
 ## Key Features
 
-- Plug-and-play sensors via RJ45 connectors  
-- Arduino Pro Micro with custom firmware  
-- Logical handling of multiple inputs  
-- 3D printed enclosure, PCB-ready for future upgrade  
-- Real-time USB joystick mapping.
+- 5-axis articulated robotic arm design  
+- End-effector mount for welding tool integration  
+- Workspace optimization and joint reach evaluation  
+- Modular joint design for easy assembly and simulation  
+- Full CAD modeling in SolidWorks including exploded views  
 
 ## Technologies Used
 
-- 3D CAD (SolidWorks)  
-- PCB design (KiCad)  
-- Arduino C++  
-- Joystick.h HID library  
-- 3D printing  
+- SolidWorks (3D CAD modeling and motion study)  
+- Kinematic analysis tools for reach and joint range  
+- Design-for-manufacturing (DFM) considerations  
+- Engineering drawings and assembly documentation  
 
 ## Gallery
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
-  <img src="images/top.png" alt="Top View">
-  <img src="images/angled.png" alt="Angled View">
-  <img src="images/final.png" alt="Final Assembly">
-  <img src="images/pcb.png" alt="PCB Layout">
-  <img src="images/module.png" alt="Module">
-  <img src="images/pcb_design_1.png" alt="PCB">
-  <img src="images/module2.png" alt="module">
-  <img src="images/pcb_design_2.png" alt="PCB 2">
-  <img src="images/module_N.png" alt="module_N">
+  <img src="images/1.jpg" alt="Front View">
+  <img src="images/2.jpg" alt="Side View">
+  <img src="images/3.jpg" alt="Exploded Assembly">
+  <img src="images/4.jpg" alt="Welding Tool Mount">
 </div>

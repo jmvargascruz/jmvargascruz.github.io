@@ -1,55 +1,42 @@
 ---
-title: "TEUS 2023 | Aerodesign"
+title: "TEUS 2023 | SAE Aerodesign México"
 date: 2024-01-01
-description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
+description: Design, construction, and testing of TEUS 2023, a remote-controlled aircraft for the SAE Aerodesign México competition.
 menu:
   sidebar:
-    name: TEUS 2023 | Aerodesign
+    name: TEUS 2023 | SAE Aerodesign
     identifier: teus-aerodesign
     parent: projects
     weight: 34
 hero: images/1.png
 tags:
-  - Arduino
+  - Aerodynamics
+  - CAD Design
   - Embedded Systems
-  - Microcontrollers
-  - Electronics
 categories:
-  - Robotics
+  - Aerodynamics
 ---
 
 ## Overview
 
-This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.
+**TEUS 2023** was the aircraft designed and developed for participation in the **SAE Aerodesign México** national competition. The objective of the contest was to construct a remote-controlled aircraft capable of lifting a maximum payload under cargo dimensional and power consumption constraints.
 
-The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.
+## Contributions
 
-## Key Features
-
-- Plug-and-play sensors via RJ45 connectors  
-- Arduino Pro Micro with custom firmware  
-- Logical handling of multiple inputs  
-- 3D printed enclosure, PCB-ready for future upgrade  
-- Real-time USB joystick mapping.
+- Designed the wing profile and internal structural frame using **SolidWorks**.
+- Constructed and assembled the fuselage and propulsion elements.
+- Performed motor–propeller characterization using a custom-built test bench.
+- Participated in telemetry setup, weight distribution analysis, and test flights.
+- Competed in the official SAE Aerodesign México 2023.
 
 ## Technologies Used
+- SolidWorks for mechanical design  
 
-- 3D CAD (SolidWorks)  
-- PCB design (KiCad)  
-- Arduino C++  
-- Joystick.h HID library  
-- 3D printing  
 
 ## Gallery
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
-  <img src="images/top.png" alt="Top View">
-  <img src="images/angled.png" alt="Angled View">
-  <img src="images/final.png" alt="Final Assembly">
-  <img src="images/pcb.png" alt="PCB Layout">
-  <img src="images/module.png" alt="Module">
-  <img src="images/pcb_design_1.png" alt="PCB">
-  <img src="images/module2.png" alt="module">
-  <img src="images/pcb_design_2.png" alt="PCB 2">
-  <img src="images/module_N.png" alt="module_N">
+  <img src="images/2.jpeg" alt="2">
+  <img src="images/3.jpg" alt="3">
+  <img src="images/4.JPEG" alt="4">
 </div>

@@ -26,8 +26,24 @@ buttons:
   filter: "aerodynamics"
 
 projects:
+
+- name: Low-Level Control System | KUKA iDo
+  image: /images/sections/projects/low-level/2.JPEG
+  role: Developer
+  summary: Embedded control system using micro-ROS on a custom PCB with real-time motor and sensor integration.
+  tags: ["control", "robotics", "electronics"]
+  url: "/projects/low-level-control"
+
+- name: Electric Scooter | Mechatronic Design
+  image: /images/sections/projects/Scooter/scooter.png
+  role: Developer
+  summary: User-centered design of an electric scooter with modular frame, structural simulation, and embedded electronics.
+  tags: ["robotics", "control", "electronics", "cad"]
+  url: "/projects/electric-scooter"
+
+
 - name: UR10 Solving Hanoi Tower
-  logo: /images/sections/projects/UR_ik/1.png
+  # logo: /images/sections/projects/UR_ik/1.png
   image: /images/sections/projects/UR_ik/1.png
   role: Developer
   summary: Implementation of inverse kinematics for UR10 robot arm solving Hanoi Tower.

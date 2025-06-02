@@ -1,55 +1,37 @@
 ---
 title: "DIY Gas Forge with Hard Fire Brick"
 date: 2024-01-01
-description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
+description: Gas forge built with fire bricks, steel housing, and propane burner for metal heating tasks like forging and treatment.
 menu:
   sidebar:
     name: DIY Forge
     identifier: diy-forge
     parent: projects
     weight: 25
-hero: images/1.png
+hero: images/2.jpg
 tags:
-  - Arduino
-  - Embedded Systems
-  - Microcontrollers
-  - Electronics
+  - Metalwork
+  - Fabrication
+  - Thermodynamics
+  - DIY
 categories:
-  - Robotics
+  - Materials Engineering
 ---
 
 ## Overview
 
-This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.
+This project consisted of building a gas-powered forge. The structure was made using hard fire bricks inside a steel shell. Heat is provided by a propane torch connected to a steel pipe acting as an atmospheric burner inlet. The burner operates without forced air, relying on natural air intake to sustain combustion.
 
-The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.
+The front of the forge includes a fire brick door that can be manually lifted to insert or remove metal parts.
 
-## Key Features
+## Reference
 
-- Plug-and-play sensors via RJ45 connectors  
-- Arduino Pro Micro with custom firmware  
-- Logical handling of multiple inputs  
-- 3D printed enclosure, PCB-ready for future upgrade  
-- Real-time USB joystick mapping.
-
-## Technologies Used
-
-- 3D CAD (SolidWorks)  
-- PCB design (KiCad)  
-- Arduino C++  
-- Joystick.h HID library  
-- 3D printing  
+Inspired by the following video:
+{{< youtube bUbrLXS5yEY >}}
 
 ## Gallery
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
-  <img src="images/top.png" alt="Top View">
-  <img src="images/angled.png" alt="Angled View">
-  <img src="images/final.png" alt="Final Assembly">
-  <img src="images/pcb.png" alt="PCB Layout">
-  <img src="images/module.png" alt="Module">
-  <img src="images/pcb_design_1.png" alt="PCB">
-  <img src="images/module2.png" alt="module">
-  <img src="images/pcb_design_2.png" alt="PCB 2">
-  <img src="images/module_N.png" alt="module_N">
+  <img src="images/2.jpg" alt="2">
+  <img src="images/3.jpg" alt="3">
 </div>

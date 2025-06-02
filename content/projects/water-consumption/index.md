@@ -1,55 +1,53 @@
 ---
-title: "Water consumption monitoring system based on LOGO! Siemens"
+title: "Water Consumption Monitoring System | LOGO! Siemens"
 date: 2024-01-01
-description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
+description: Development of an automated system for monitoring and controlling residential water usage using a Siemens LOGO! PLC and flow sensors.
 menu:
   sidebar:
-    name: Water consumption monitoring system
+    name: Water Consumption Monitoring System
     identifier: water-consumption
     parent: projects
     weight: 36
-hero: images/1.png
+hero: images/0.jpg
 tags:
-  - Arduino
-  - Embedded Systems
-  - Microcontrollers
-  - Electronics
+  - Automation
+  - PLC
+  - Siemens
+  - Water Monitoring
 categories:
-  - Robotics
+  - Automation
 ---
 
 ## Overview
 
-This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.
+This project consists of a programmable control system designed to monitor household water consumption using a Siemens LOGO! PLC. The system receives flow measurements from a water flow sensor and tracks total consumption over time, displaying data through a user interface panel.
 
-The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.
+The objective was to automate water usage tracking in domestic installations and evaluate how programmable logic controllers can be used for energy efficiency and sustainability applications.
 
 ## Key Features
 
-- Plug-and-play sensors via RJ45 connectors  
-- Arduino Pro Micro with custom firmware  
-- Logical handling of multiple inputs  
-- 3D printed enclosure, PCB-ready for future upgrade  
-- Real-time USB joystick mapping.
+- Real-time flow measurement using a digital flow sensor  
+- Accumulated water consumption display on HMI screen  
+- Alarm activation if consumption exceeds threshold  
+- Integration of LOGO! Soft Comfort for ladder logic programming  
+- 230V-compatible input/output wiring for solenoid valve control  
 
 ## Technologies Used
 
-- 3D CAD (SolidWorks)  
-- PCB design (KiCad)  
-- Arduino C++  
-- Joystick.h HID library  
-- 3D printing  
+- Siemens LOGO! 12/24RCE  
+- LOGO! Soft Comfort (v8)  
+- Hall-effect water flow sensor  
+- Relay actuators and solenoid valves  
+- Ladder Logic Programming  
+- Low-voltage AC wiring and safety relays  
 
 ## Gallery
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
-  <img src="images/top.png" alt="Top View">
-  <img src="images/angled.png" alt="Angled View">
-  <img src="images/final.png" alt="Final Assembly">
-  <img src="images/pcb.png" alt="PCB Layout">
-  <img src="images/module.png" alt="Module">
-  <img src="images/pcb_design_1.png" alt="PCB">
-  <img src="images/module2.png" alt="module">
-  <img src="images/pcb_design_2.png" alt="PCB 2">
-  <img src="images/module_N.png" alt="module_N">
+  <img src="images/0.jpg" alt="Overview of the LOGO! PLC setup">
+  <img src="images/1.jpg" alt="Internal wiring and I/O configuration">
+  <img src="images/2.jpg" alt="Ladder logic program in LOGO! Soft Comfort">
+  <img src="images/3.jpg" alt="Installed system with water flow sensor">
+  <img src="images/4.jpg" alt="HMI interface for consumption visualization">
+  <img src="images/5.jpg" alt="System testing in residential setup">
 </div>

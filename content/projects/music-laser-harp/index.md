@@ -1,55 +1,43 @@
 ---
-title: "Musical Laser Harp"
+title: "Interactive Laser Harp"
 date: 2024-01-01
-description: Modular sensor input system for driving simulators, designed with Arduino Pro Micro and RJ45 connectors.
+description: Musical harp with red laser LED beam interruption to trigger notes. Designed with Arduino and photodetectors arranged on a curved frame.
 menu:
   sidebar:
-    name: Musical Laser Harp
+    name: Laser Harp
     identifier: music-laser-harp
     parent: projects
-    weight: 31
+    weight: 32
 hero: images/1.png
 tags:
   - Arduino
+  - Sensors
+  - Music
+  - Infrared
   - Embedded Systems
-  - Microcontrollers
-  - Electronics
 categories:
-  - Robotics
+  - Interactive Systems
 ---
 
 ## Overview
 
-This module connects sensors from a driving simulator using RJ45 Keystone jacks and custom wiring. It includes signals such as blinkers, gear selector, handbrake, seatbelt, and ignition. Each sensor is mapped to a virtual joystick button through a USB HID interface.
+This project is a laser harp, an electronic musical instrument that plays notes when the user interrupts RED laser light beams with their hand. Each beam represents one note. When a beam is blocked, a sensor detects the change and sends a signal to the Arduino to play the sound.
 
-The firmware handles input logic and emulates a USB joystick using the Joystick.h library. The module is housed in a 3D-printed case and has a custom PCB prepared for future versions.
+The system uses a curved structure with infrared emitters and photodiodes. An Arduino reads the sensors and generates sound using a small speaker. A knob lets the user change between rhythm or sound modes.
 
-## Key Features
+## How It Works
 
-- Plug-and-play sensors via RJ45 connectors  
-- Arduino Pro Micro with custom firmware  
-- Logical handling of multiple inputs  
-- 3D printed enclosure, PCB-ready for future upgrade  
-- Real-time USB joystick mapping.
+Each emitter is paired with a photodiode. When the light reaches the photodiode, the signal is stable. If a hand blocks the beam, the Arduino detects the change and plays a specific tone.
 
-## Technologies Used
+## Main Features
 
-- 3D CAD (SolidWorks)  
-- PCB design (KiCad)  
-- Arduino C++  
-- Joystick.h HID library  
-- 3D printing  
+- Note triggering by blocking infrared beams  
+- Sound generation using Arduino  
+- Built-in speaker  
+- Mode selector knob  
 
 ## Gallery
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
-  <img src="images/top.png" alt="Top View">
-  <img src="images/angled.png" alt="Angled View">
-  <img src="images/final.png" alt="Final Assembly">
-  <img src="images/pcb.png" alt="PCB Layout">
-  <img src="images/module.png" alt="Module">
-  <img src="images/pcb_design_1.png" alt="PCB">
-  <img src="images/module2.png" alt="module">
-  <img src="images/pcb_design_2.png" alt="PCB 2">
-  <img src="images/module_N.png" alt="module_N">
+  <img src="images/1.png" alt="Laser Harp - Full View">
 </div>
