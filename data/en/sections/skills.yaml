@@ -25,28 +25,27 @@ buttons:
 # Your Skills
 skills:
 - name: ROS 2 Development
-  # logo: /images/sections/skills/ros2.png
-  logo: /images/sections/skills/c++.png
+  logo: /images/sections/skills/ros2.png
   summary: "Development of robotic systems and communication structures using ROS 2 and C++."
   categories: ["robotics", "software"]
   url: "https://docs.ros.org/en/"
 
 - name: micro-ROS on Embedded Platforms
   # logo: /images/sections/skills/microros.png
-  logo: /images/sections/skills/c++.png
+  logo: /images/sections/skills/micro-ROS.png
   summary: "Integration of micro-ROS for real-time robotic communication on embedded systems."
   categories: ["robotics", "embedded"]
   url: "https://micro.ros.org/"
 
 - name: 3D Modeling with SolidWorks
   # logo: /images/sections/skills/solidworks.png
-  logo: /images/sections/skills/c++.png
+  logo: /images/sections/skills/SolidWorks.png
   summary: "Design of mechanical components and assemblies using SolidWorks. Completed Certified SolidWorks Professional (CSWP) certification."
   categories: ["mechanical"]
 
 - name: PCB and Circuit Design
   # logo: /images/sections/skills/kicad.png
-  logo: /images/sections/skills/c++.png
+  logo: /images/sections/skills/pcb.png
   summary: "Design of electronic circuits and printed circuit boards using KiCad for embedded and general electronics projects."
   categories: ["electronics"]
   url: "https://kicad.org/"
@@ -59,18 +58,13 @@ skills:
   url: "https://isocpp.org/"
 
 - name: Linux Systems
-  # logo: /images/sections/skills/linux.png
-  logo: /images/sections/skills/c++.png
+  logo: /images/sections/skills/linux.png
+  # logo: /images/sections/skills/c++.png
   summary: "Development and configuration of software projects in Linux environments."
   categories: ["software"]
   url: "https://ubuntu.com/"
 
-- name: Git Version Control
-  # logo: /images/sections/skills/git.png
-  logo: /images/sections/skills/c++.png
-  summary: "Git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["software"]
-  url: "https://git-scm.com/"
+
 
 # # section information
 # section:
