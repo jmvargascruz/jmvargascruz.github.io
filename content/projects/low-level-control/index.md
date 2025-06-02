@@ -7,7 +7,7 @@ menu:
     name: Low-Level Control
     identifier: low-level-control
     parent: projects
-    weight: 33
+    weight: 30
 hero: images/3.JPEG
 tags:
   - Embedded Systems

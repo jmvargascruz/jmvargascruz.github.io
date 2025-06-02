@@ -7,7 +7,7 @@ menu:
     name: DIY Forge
     identifier: diy-forge
     parent: projects
-    weight: 25
+    weight: 50
 hero: images/2.jpg
 tags:
   - Metalwork

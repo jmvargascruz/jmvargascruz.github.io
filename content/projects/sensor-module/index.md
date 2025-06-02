@@ -7,7 +7,7 @@ menu:
     name: Sensor Module
     identifier: sensor-module
     parent: projects
-    weight: 33
+    weight: 31
 hero: images/final.png
 tags:
   - Arduino

@@ -7,7 +7,7 @@ menu:
     name: Upright CNC Router
     identifier: upright-cnc
     parent: projects
-    weight: 35
+    weight: 45
 hero: images/1.png
 tags:
   - Control

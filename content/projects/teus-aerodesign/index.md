@@ -7,7 +7,7 @@ menu:
     name: TEUS 2023 | SAE Aerodesign
     identifier: teus-aerodesign
     parent: projects
-    weight: 34
+    weight: 47
 hero: images/1.png
 tags:
   - Aerodynamics

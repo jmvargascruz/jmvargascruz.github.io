@@ -7,7 +7,7 @@ menu:
     name: Automated Conveyor
     identifier: automated-conveyor
     parent: projects
-    weight: 22
+    weight: 38
 hero: images/1.jpg
 tags:
   - PLC

@@ -7,7 +7,7 @@ menu:
     name: RC Flying Wing
     identifier: rc-flying-wing
     parent: projects
-    weight: 10
+    weight: 46
 hero: images/1.png
 tags:
   - Aerodynamics

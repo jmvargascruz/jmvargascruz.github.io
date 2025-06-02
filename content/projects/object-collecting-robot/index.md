@@ -7,7 +7,7 @@ menu:
     name: Object Collecting Robot
     identifier: object-collecting-robot
     parent: projects
-    weight: 31
+    weight: 40
 hero: images/1.png
 tags:
   - Robotics

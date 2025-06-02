@@ -7,7 +7,7 @@ menu:
     name: CAD | Welding Robot ARM
     identifier: welding-robot-arm
     parent: projects
-    weight: 37
+    weight: 44
 hero: images/3.png
 tags:
   - CAD Design

@@ -7,7 +7,7 @@ menu:
     name: Laser Harp
     identifier: music-laser-harp
     parent: projects
-    weight: 32
+    weight: 37
 hero: images/1.png
 tags:
   - Arduino

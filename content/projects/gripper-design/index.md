@@ -7,7 +7,7 @@ menu:
     name: Gripper Design
     identifier: gripper-design
     parent: projects
-    weight: 27
+    weight: 42
 hero: images/7.jpeg
 tags:
   - Arduino

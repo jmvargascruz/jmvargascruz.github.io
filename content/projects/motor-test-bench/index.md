@@ -7,7 +7,7 @@ menu:
     name: Motor Test Bench
     identifier: motor-test-bench
     parent: projects
-    weight: 31
+    weight: 35
 hero: images/1.png
 tags:
   - Propulsion

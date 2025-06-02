@@ -7,7 +7,7 @@ menu:
     name: Cloud Surfer
     identifier: cloud-surfer-aerodesign
     parent: projects
-    weight: 24
+    weight: 48
 hero: images/1.png
 tags:
   - Aerodynamics

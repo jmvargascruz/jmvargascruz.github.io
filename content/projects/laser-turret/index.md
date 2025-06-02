@@ -7,7 +7,7 @@ menu:
     name: Laser Turret
     identifier: laser-turret
     parent: projects
-    weight: 29
+    weight: 43
 hero: images/1.png
 tags:
   - Arduino

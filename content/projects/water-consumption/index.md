@@ -7,7 +7,7 @@ menu:
     name: Water Consumption Monitoring System
     identifier: water-consumption
     parent: projects
-    weight: 36
+    weight: 39
 hero: images/0.jpg
 tags:
   - Automation

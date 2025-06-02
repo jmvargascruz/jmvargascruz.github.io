@@ -7,7 +7,7 @@ menu:
     name: CFD Analysis
     identifier: cfd-analysis
     parent: projects
-    weight: 23
+    weight: 49
 hero: images/1.png
 tags:
   - CFD

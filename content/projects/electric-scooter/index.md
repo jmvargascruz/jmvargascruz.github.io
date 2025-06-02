@@ -7,7 +7,7 @@ menu:
     name: Electric Scooter
     identifier: electric-scooter
     parent: projects
-    weight: 38
+    weight: 34
 hero: images/2.png
 tags:
   - CAD Design

@@ -7,7 +7,7 @@ menu:
     name: Robociety
     identifier: robociety
     parent: projects
-    weight: 32
+    weight: 41
 hero: images/2.jpg
 tags:
   - Robotics
