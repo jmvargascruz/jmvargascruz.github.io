@@ -424,9 +424,10 @@ section,
   position: relative;
   display: grid;
   align-items: center;
-  justify-items: center;
+  justify-items: stretch;
+  gap: clamp(2rem, 5vw, 3rem);
   padding-inline: clamp(1.5rem, 6vw, 4rem);
-  text-align: center;
+  text-align: left;
 }
 
 .home .content {
@@ -435,18 +436,20 @@ section,
   height: auto !important;
   width: 100%;
   max-width: 960px;
-  margin-inline: auto;
-  padding: clamp(2.5rem, 6vw, 4rem);
-  border-radius: 28px;
-  background: rgba(var(--home-content-surface-rgb), var(--home-content-opacity));
-  box-shadow: var(--home-content-shadow);
-  backdrop-filter: blur(22px);
+  justify-self: start;
+  margin-inline: 0;
+  padding: clamp(2rem, 5vw, 3.25rem);
+  border-radius: 22px;
+  border: 1px solid rgba(var(--color-muted-rgb), var(--surface-border-opacity));
+  background: var(--color-bg-card);
+  box-shadow: 0 24px 60px rgba(var(--color-bg-primary-inverse-rgb), 0.08);
 }
 
 .home img {
   border-radius: 50%;
   border: 3px solid rgba(var(--color-accent-rgb), var(--home-avatar-border-opacity));
   box-shadow: var(--home-avatar-shadow);
+  margin: 0;
 }
 
 .home .greeting {
@@ -470,9 +473,9 @@ section,
 }
 
 .about-section {
-  background: rgba(var(--color-bg-card-rgb), 0.86);
-  backdrop-filter: blur(18px);
+  background: var(--color-bg-card);
   border: 1px solid rgba(var(--color-muted-rgb), var(--surface-border-opacity));
+  box-shadow: 0 22px 55px rgba(var(--color-bg-primary-inverse-rgb), 0.06);
 
   h3 {
     font-size: clamp(2rem, 4vw, 2.7rem);
@@ -810,8 +813,19 @@ section,
     --section-card-radius: 20px;
   }
 
+  .home {
+    justify-items: center;
+    text-align: center;
+  }
+
   .home .content {
+    justify-self: center;
+    margin-inline: 0;
     padding: clamp(2rem, 7vw, 2.75rem);
+  }
+
+  .home img {
+    margin: 0 auto;
   }
 
   .card .card-body {
@@ -850,7 +864,13 @@ html[data-theme='dark'] {
   }
 
   .about-section {
-    background: rgba(var(--color-bg-card-rgb), 0.92);
+    background: var(--color-bg-card);
+    border-color: rgba(var(--color-muted-rgb), var(--surface-border-opacity));
+    box-shadow: 0 28px 70px rgba(var(--color-bg-primary-inverse-rgb), 0.22);
+  }
+
+  .home .content {
+    box-shadow: 0 32px 80px rgba(var(--color-bg-primary-inverse-rgb), 0.2);
   }
 
   .skills-section #skill-filter-buttons,
