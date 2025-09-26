@@ -7,7 +7,7 @@ copyright: © 2025 Copyright.
 # However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of Jesus Vargas.
+description: Robotics and mechatronics portfolio of Jesús Vargas.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -24,6 +24,6 @@ customMenus:
 openGraph:
   title: Jesus's Blog
   type: website
-  description: Portfolio and personal blog of John Doe.
+  description: Robotics and mechatronics portfolio of Jesús Vargas.
   image: images/author/profile.png
   url: https://jmvargascruz.github.io
