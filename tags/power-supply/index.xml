@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Power Supply on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/tags/power-supply/</link><description>Recent content in Power Supply on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/tags/power-supply/index.xml" rel="self" type="application/rss+xml"/><item><title>DC Variable Power Source</title><link>https://jmvargascruz.github.io/projects/dc-power-source/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/dc-power-source/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project consists of the design and implementation of a variable DC power supply. The system provides an output voltage ranging from 0 V to 20 V. The circuit was simulated in Proteus, fabricated on a custom PCB.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Variable voltage output: 0 V to 20 V&lt;/li&gt;
+&lt;li&gt;LM317 regulator&lt;/li&gt;
+&lt;li&gt;Full-wave bridge rectifier and smoothing capacitors&lt;/li&gt;
+&lt;li&gt;Manual adjustment via potentiometer&lt;/li&gt;
+&lt;li&gt;Integrated voltmeter display&lt;/li&gt;
+&lt;li&gt;Validated output stability under varying load conditions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tools-and-components"&gt;Tools and Components&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Simulation: Proteus&lt;/li&gt;
+&lt;li&gt;Fabrication: PCBWay&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="gallery"&gt;Gallery&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;"&gt;
+&lt;img src="images/1.png" alt="1"&gt;
+&lt;img src="images/4.png" alt="4"&gt;
+&lt;img src="images/5.png" alt="5"&gt;
+&lt;/div&gt;</description></item></channel></rss>

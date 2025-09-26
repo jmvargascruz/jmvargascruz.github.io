@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Siemens NX on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/tags/siemens-nx/</link><description>Recent content in Siemens NX on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/tags/siemens-nx/index.xml" rel="self" type="application/rss+xml"/><item><title>CAD | Welding Robot ARM</title><link>https://jmvargascruz.github.io/projects/welding-robot-arm/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/welding-robot-arm/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project was developed as part of a Computer-Aided Design (CAD) course and involved the conceptual design of a robotic arm for welding applications. Using Siemens NX, the model explores joint articulation, link dimensions, and basic structural layout. The purpose was to apply CAD principles and practice 3D modeling of mechanical assemblies, without aiming for a fully functional or industrial-grade design.&lt;/p&gt;
+&lt;h2 id="key-features"&gt;Key Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Conceptual robotic arm with articulated joints&lt;/li&gt;
+&lt;li&gt;Simplified end-effector interface for welding simulation&lt;/li&gt;
+&lt;li&gt;Modular design for assembly illustration&lt;/li&gt;
+&lt;li&gt;Exploded and assembled views modeled in NX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technologies-used"&gt;Technologies Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Siemens NX (Part modeling, assemblies, exploded views)&lt;/li&gt;
+&lt;li&gt;Basic engineering drawing generation for components&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="gallery"&gt;Gallery&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;"&gt;
+&lt;img src="images/3.png" alt="Welding Arm CAD View"&gt;
+&lt;img src="images/6.jpg" alt="Welding Arm Assembly View"&gt;
+&lt;/div&gt;</description></item></channel></rss>

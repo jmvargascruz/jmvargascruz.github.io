@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SLAM on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/tags/slam/</link><description>Recent content in SLAM on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/tags/slam/index.xml" rel="self" type="application/rss+xml"/><item><title>Autonomous Mobile Vehicle</title><link>https://jmvargascruz.github.io/projects/amr/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/amr/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;We developed an Autonomous Mobile Vehicle using a combination of Jetson Xavier for high-level processing, RPLIDAR A3 for mapping and localization, and an Arduino Mega for low-level actuation. Our team designed and implemented the electrical system, control interfaces, CAD mounts, and ROS integration. The AGV successfully navigated autonomously within the mapped area of CIMA using ROS, Hector SLAM, and TEB Local Planner.&lt;/p&gt;
+&lt;h2 id="project-highlights"&gt;Project Highlights:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and fabricated a reinforced electrical wiring system&lt;/li&gt;
+&lt;li&gt;Integrated voltage converters (48V to 12V, 12V to 5V, 12V to 19V) for safe and efficient power management.&lt;/li&gt;
+&lt;li&gt;Replaced the steering motor with a 24V scooter motor and sprocket system, integrating a potentiometer for angular feedback.&lt;/li&gt;
+&lt;li&gt;Mounted the RPLIDAR on a custom laser-cut platform aligned with the vehicle’s center.&lt;/li&gt;
+&lt;li&gt;Installed Jetson Xavier with secure custom mount and configured ROS-based autonomous navigation.&lt;/li&gt;
+&lt;li&gt;Generated a live map of the CIMA building and planned paths using Hector SLAM and TEB Planner.&lt;/li&gt;
+&lt;li&gt;Programmed mode switching between autonomous and manual via RC control&lt;/li&gt;
+&lt;li&gt;Developed and deployed Python ROS nodes to communicate velocity commands using ROS Serial&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technologies-and-tools-used"&gt;Technologies and Tools Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardware: Jetson Xavier, Arduino Mega, RPLIDAR A3, DC motors, step-down converters, relays.&lt;/li&gt;
+&lt;li&gt;Software: ROS, RViz, Hector SLAM, TEB Planner, Python, GIMP, SolidWorks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="gallery"&gt;Gallery&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;"&gt;
+&lt;img src="images/agv.png" alt="AMR"&gt;
+&lt;img src="images/map.png" alt="map"&gt;
+&lt;img src="images/grid.png" alt="grid
+"&gt;
+&lt;/div&gt;</description></item></channel></rss>

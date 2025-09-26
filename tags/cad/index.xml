@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CAD on Jesús Vargas Portfolio</title><link>https://jmvargascruz.github.io/tags/cad/</link><description>Recent content in CAD on Jesús Vargas Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jmvargascruz.github.io/tags/cad/index.xml" rel="self" type="application/rss+xml"/><item><title>Cloud Surfer 2022 | Aerodesign</title><link>https://jmvargascruz.github.io/projects/cloud-surfer-aerodesign/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://jmvargascruz.github.io/projects/cloud-surfer-aerodesign/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Cloud Surfer 2022 was a radio-controlled cargo aircraft developed as part of the SAE Aerodesign Mexico competition. The project focused on aerodynamic optimization, structural feasibility, and payload integration within competition constraints.&lt;/p&gt;
+&lt;h2 id="tools-and-technologies"&gt;Tools and Technologies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SolidWorks for 3D modeling&lt;/li&gt;
+&lt;li&gt;Ansys Fluent for CFD simulation&lt;/li&gt;
+&lt;li&gt;XFLR5 for preliminary aerodynamic analysis&lt;/li&gt;
+&lt;li&gt;MATLAB for performance estimation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="gallery"&gt;Gallery&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;"&gt;
+&lt;!-- &lt;img src="images/top.png" alt="Top View"&gt;
+&lt;img src="images/angled.png" alt="Angled View"&gt;
+&lt;img src="images/final.png" alt="Final Assembly"&gt;
+&lt;img src="images/pcb.png" alt="PCB Layout"&gt;
+&lt;img src="images/module.png" alt="Module"&gt;
+&lt;img src="images/pcb_design_1.png" alt="PCB"&gt;
+&lt;img src="images/module2.png" alt="module"&gt;
+&lt;img src="images/pcb_design_2.png" alt="PCB 2"&gt;
+&lt;img src="images/module_N.png" alt="module_N"&gt; --&gt;
+&lt;/div&gt;</description></item></channel></rss>
